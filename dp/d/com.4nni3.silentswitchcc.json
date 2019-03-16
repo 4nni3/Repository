@@ -1,0 +1,25 @@
+{
+  "name": "com.4nni3.silentswitchcc",
+  "id": "com.4nni3.silentswitchcc",
+  "author": "あにー",
+  "version": "1.0",
+  "section": "Tweaks",
+  "description": "<b>サイレントスイッチのモジュール(CCSupport)です。iPhone本体に付いているサイレントスイッチと同じ動作とお考え下さい。\n設定からコントロールセンターに追加して下さい",
+  "detail_url": "4nni3.com",
+  "support_min": 11,
+  "support_max": 12.2,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.silentswitchcc_1.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "com.4nni3.silentswitchcc.png",
+  "info": ""
+}

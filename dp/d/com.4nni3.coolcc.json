@@ -1,0 +1,32 @@
+{
+  "name": "CoolCC Beta",
+  "id": "com.4nni3.coolcc",
+  "author": "あにー",
+  "version": "3.0-beta",
+  "section": "Tweaks",
+  "description": "コントロールセンターをカッコよくします！",
+  "detail_url": "4nni3.com",
+  "support_min": 11,
+  "support_max": 12.2,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    },
+    {
+      "version": "3.0-beta",
+      "date": "2019-02-24",
+      "description": "ios12に対応"
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.coolcc_1.png",
+    "com.4nni3.coolcc_2.png",
+    "com.4nni3.coolcc_3.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "https://i.imgur.com/YrOjbdc.png",
+  "info": "ベータ版です"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "CoolFolder Beta",
+  "id": "com.4nni3.coolfolder",
+  "author": "あにー",
+  "version": "2.2-beta",
+  "section": "Tweaks",
+  "description": "ホーム画面のフォルダーにボーダーを付け背景を消しカッコよくします",
+  "detail_url": "4nni3.com",
+  "support_min": 9,
+  "support_max": 12.2,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    },
+    {
+      "version": "2.0",
+      "date": "-",
+      "description": "設定を追加 枠の色と丸みを変更可能に"
+    },
+    {
+      "version": "2.1",
+      "date": "-",
+      "description": "設定が適用されないバグなどを修正"
+    },
+    {
+      "version": "2.2-beta",
+      "date": "2019-02-24",
+      "description": "ios12に対応"
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.coolfolder_1.png",
+    "com.4nni3.coolfolder_2.png",
+    "com.4nni3.coolfolder_3.png",
+    "com.4nni3.coolfolder_4.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "https://i.imgur.com/CCEjQLx.png",
+  "info": ""
+}

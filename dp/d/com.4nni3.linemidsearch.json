@@ -1,0 +1,30 @@
+{
+  "name": "LINEMIDSerch",
+  "id": "com.4nni3.linemidsearch",
+  "author": "あにー",
+  "version": "1.1",
+  "section": "Tweaks",
+  "description": "LINEアプリ内の検索バーで先頭に「<b>mid:</b>」と入力し続いてMIDを入力してキーボードのSearchを押すと<b>そのMIDの持ち主のアカウントが表示され、そこから友達追加することができます</b>。無駄な空白などを入れると動作しません。\n例: mid:u12f8bff2d56652184413ef1eedb52e81",
+  "detail_url": "4nni3.com",
+  "support_min": 11,
+  "support_max": 11,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "-",
+      "description": "入力について少し修正"
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.linemidsearch_1.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "com.4nni3.linemidsearch.png",
+  "info": ""
+}
