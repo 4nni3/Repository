@@ -1,13 +1,32 @@
 <?php
 
 $package = $_GET['p'];
-$info = json_decode(file_get_contents('d/'.$package.'.json'), true);
+$version = $_GET['v'];
+
+function toFixed1($num){
+  $str = strval($num);
+  if(strpos($str, ".")===false&&$str!=""){
+    $str .= ".0";
+  }
+  return $str;
+}
+
+$info = json_decode(file_get_contents('data/'.$package.'.json'), true);
 
 $tab1 = [
   "class"=>"DepictionStackView",
   "tabname"=>"Details",
   "views"=>[]
 ];
+
+if($info['info']!=null){
+  $tab1['views'][] = [
+    "class"=>"DepictionMarkdownView",
+    "markdown"=>'<center><b><span style="color:#a00;">'.$info['info'].'</span></b></center>',
+    "useSpacing"=>true,
+    "useRawFormat"=>true
+  ];
+}
 
 if(count($info['screenshots'])){
   $sss = [
@@ -18,7 +37,7 @@ if(count($info['screenshots'])){
   ];
   foreach($info['screenshots'] as $ss){
     $sss['screenshots'][] = [
-      "url"=>"https://nni43-repo.herokuapp.com/dp/ss/".$ss,
+      "url"=>"https://repo.4nni3.com/dp/ss/".$ss,
       "accessibilityText"=>"Screenshot"
     ];
   }
@@ -33,6 +52,11 @@ $tab1['views'][] = [
   "markdown"=>$info['description'],
   "useSpacing"=>true,
   "useRawFormat"=>true
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionAdmobView",
+  "adUnitID"=>"ca-app-pub-7732927685565784/9541680779"
 ];
 
 $tab1['views'][] = [
@@ -69,7 +93,7 @@ $tab1['views'][] = [
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
   "title"=>"Version",
-  "text"=>$info['version']
+  "text"=>end($info['changelog'])['version']
 ];
 
 $tab1['views'][] = [
@@ -87,7 +111,7 @@ $tab1['views'][] = [
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
   "title"=>"Compatibility",
-  "text"=>'iOS'.$info['support_min'].' ~ '.$info['support_max']
+  "text"=>'iOS'.toFixed1($info['support_min']).' ~ '.toFixed1($info['support_max'])
 ];
 
 $tab2 = [
@@ -97,33 +121,41 @@ $tab2 = [
 ];
 
 foreach($info['changelog'] as $log){
-  $tab2['views'][] = [
+  array_unshift($tab2['views'], [
     "class"=>"DepictionSubheaderView",
     "title"=>$log['version'].'  ('.$log['date'].')',
     "useBoldText"=>true,
     "useBottomMargin"=>false
-  ];
-  $tab2['views'][] = [
+  ],[
     "class"=>"DepictionMarkdownView",
     "markdown"=>$log['description'],
     "useSpacing"=>true,
     "useRawFormat"=>true
-  ];
-  $tab2['views'][] = [
+  ],[
     "class"=>"DepictionSeparatorView"
-  ];
+  ]);
 }
 
-$tab3 = [
-  "class"=>"DepictionStackView",
-  "tabname"=>"Contact",
-  "views"=>[]
+
+$tab1['views'][] = [
+  "class"=>"DepictionSeparatorView"
 ];
 
-$tab3['views'][] = [
-  "class"=>"DepictionMarkdownView",
-  "markdown"=>"Comming soon...",
-  "useSpacing"=>true
+$tab1['views'][] = [
+  "class"=>"DepictionHeaderView",
+  "title"=>"Work?"
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionButtonView",
+  "text"=>"Works",
+  "action"=>"https://nni43-repo.herokuapp.com/dp/c.php?p=".$package."&v=".$version."&c=1"
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionButtonView",
+  "text"=>"Broken",
+  "action"=>"https://nni43-repo.herokuapp.com/dp/c.php?p=".$package."&v=".$version."&c=0"
 ];
 
 $header = isset($info["header_img"])?$info["header_img"]:"https://i.imgur.com/WjBxxH3.png";
@@ -134,5 +166,5 @@ echo json_encode([
   "headerImage"=>$header,
   "tintColor"=>"#000088",
   "class"=>"DepictionTabView",
-  "tabs"=>[$tab1, $tab2, $tab3]
+  "tabs"=>[$tab1, $tab2]
 ]);

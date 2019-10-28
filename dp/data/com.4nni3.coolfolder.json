@@ -1,0 +1,52 @@
+{
+  "name": "CoolFolder",
+  "id": "com.4nni3.coolfolder",
+  "author": "あにー",
+  "version": "2.5",
+  "section": "Tweaks",
+  "description": "ホーム画面のフォルダーにボーダーを付け背景を消しカッコよくします",
+  "support_min": 9,
+  "support_max": 12.4,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    },
+    {
+      "version": "2.0",
+      "date": "-",
+      "description": "設定を追加 枠の色と丸みを変更可能に"
+    },
+    {
+      "version": "2.1",
+      "date": "-",
+      "description": "設定が適用されないバグなどを修正"
+    },
+    {
+      "version": "2.2-beta",
+      "date": "2019-02-24",
+      "description": "ios12に対応"
+    },
+    {
+      "version": "2.4",
+      "date": "2019-09-23",
+      "description": "support arm64e. and add colorpicker"
+    },
+    {
+      "version": "2.5",
+      "date": "2019-09-24",
+      "description": "Fix crash bug"
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.coolfolder_1.png",
+    "com.4nni3.coolfolder_2.png",
+    "com.4nni3.coolfolder_3.png",
+    "com.4nni3.coolfolder_4.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "https://i.imgur.com/CCEjQLx.png",
+  "info": null
+}

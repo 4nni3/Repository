@@ -1,0 +1,34 @@
+{
+  "name": "SiriField",
+  "id": "com.4nni3.sirifield",
+  "author": "あにー",
+  "version": "1.1",
+  "section": "Tweaks",
+  "description": "Siriへの命令を入力できるテキストフィールド付きアラートを表示するFlipswitchです\nFlipControlCenterやActivatorから実行して下さい。",
+  "support_min": 11,
+  "support_max": 12.2,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "-",
+      "description": "iOS11に対応"
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.sirifield_1.jpg",
+    "com.4nni3.sirifield_2.png",
+    "com.4nni3.sirifield_3.png",
+    "com.4nni3.sirifieldcc_1.jpg",
+    "com.4nni3.sirifieldcc_1.png",
+    "com.4nni3.sirifieldcc_2.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null
+}

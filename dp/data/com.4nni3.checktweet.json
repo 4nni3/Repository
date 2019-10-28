@@ -1,0 +1,26 @@
+{
+  "name": "CheckTweet",
+  "id": "com.4nni3.checktweet",
+  "author": "あにー",
+  "version": "1.0",
+  "section": "Tweaks",
+  "description": "Twitterで設定したワードを含んだツイートをしようとすると、警告のアラートを表示します。",
+  "support_min": 11,
+  "support_max": 11,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.checktweet_1.png",
+    "com.4nni3.checktweet_2.png",
+    "com.4nni3.checktweet_3.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null
+}

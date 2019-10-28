@@ -27,29 +27,34 @@ body{
   padding: 10px 20px;
   box-shadow: #666 0 0 3px;
 }
+.warning{
+  color: #f66;
+  font-weight: bold;
+  text-align: center;
+}
 
-#compatible{
+.compatible{
   text-align: center;
   color: #33f;
-  background: #f88;
+  background: #f88 !important;
 }
-#compatible.ok{
-  background: #8f8;
+.compatible.ok{
+  background: #8f8 !important;
 }
-#screenshots{
+.screenshots{
   overflow: scroll;
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
 }
-#screenshots>img{
+.screenshots>img{
   width: 200px;
   display: inline-block;
   margin: 20px;
   box-shadow:#ccc 0 0 5px;
 }
-#description{
+.description{
   font-size: 0.75rem;
   white-space:pre-wrap;
 }
@@ -65,68 +70,6 @@ body{
   color: #666;
   font-size: 0.8rem;
 }
-
-
-#form.closed #done{
-  transform: scale(1,1);
-  z-index: 3;
-}
-
-#form{
-  position: relative;
-
-  text-align:center;
-  z-index: 2;
-}
-#done{
-  transition: all .2s ease-in-out;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  transform: scale(0,0);
-  border-radius: 16px;
-  background: #66f;
-  font-size: 2rem;
-  color: #fff;
-  padding: 10px;
-  z-index: 1;
-}
-
-
-#comment{
-  display:block;
-  margin: 10px auto;
-  resize: vertical;
-  width: 100%;
-  padding: 5px;
-  min-height:7em;
-  font-size: 20px;
-  background: #eee;
-  border-radius: 16px;
-  border: none;
-  box-shadow:0 0 5px #ccc inset;
-  text-align: left;
-}
-.submit{
-  font-size: 0;
-}
-#works, #broken{
-  display: inline-block;
-  color: #fff;
-  font-size: 1.5rem;
-  width: 50%;
-}
-#works{
-  border-radius: 16px 0 0 16px;
-  background:#6f6;
-}
-#broken{
-  border-radius: 0 16px 16px 0;
-  background:#f66;
-}
-
 .log{
   margin: 10px 0;
   font-size: 0.7rem;

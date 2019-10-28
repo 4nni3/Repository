@@ -1,0 +1,58 @@
+#!/bin/bash
+
+echo -n "Are you ok? (y/n): "
+read c
+if [ "$c" != "y" ]; then
+  exit
+fi
+
+
+heroku=https://nni43-repo.herokuapp.com
+github=https://repo.4nni3.com
+
+cd $(dirname $0)
+
+rm -rf Package*
+
+for deb in debs/*.deb; do
+  p=$(dpkg-deb -f "$deb" package)
+  v=$(dpkg-deb -f "$deb" version)
+  echo "$p($v)"
+  icon=''
+  ic=$(jq -r '.icon' dp/data/$p.json)
+  if [ -z "$(dpkg-deb -f "$deb" icon)" -a "$ic" != "null" ]; then
+    icon="
+Icon: $ic"
+  fi
+
+
+  cat << EOS >> Packages
+$(dpkg-deb -f "$deb")
+Depiction: $heroku/dp/?p=$p&v=$v
+SileoDepiction: $heroku/dp/sileo.php?p=$p&v=$v
+Filename: $deb
+Size: $(wc -c "$deb" | awk '{ print $1 }')
+MD5sum: $(md5 -r "$deb" | awk '{ print $1 }')
+SHA256: $(shasum -a 256 "$deb" | awk '{ print $1 }')$icon
+
+EOS
+done
+
+# cp Packages Packages.txt
+bzip2 Packages
+
+git add .
+git commit -m "update $(date +%Y%m%d%H%M)"
+git push -f origin master
+
+
+exit
+
+# clear cloudflare cache
+curl -X DELETE "https://api.cloudflare.com/client/v4/zones/$CFZONE/purge_cache" \
+    -H "Content-Type:application/json" \
+    -H "X-Auth-Key: $CFKEY" \
+    -H "X-Auth-Email: $CFMAIL" \
+    --data '{"purge_everything":true}'
+echo
+

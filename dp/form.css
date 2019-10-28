@@ -1,0 +1,79 @@
+.form{
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+#progress.show{
+  display:block;
+}
+#progress{
+  display: none;
+  background: rgba(255,255,255,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#bar{
+  background: #f6f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+}
+#cancel{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+}
+#done.show{
+  display:block;
+  z-index: 99;
+}
+
+#done{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  
+  color: #fff;
+  padding: 10px;
+}
+
+#comment{
+  display:block;
+  resize: none;
+  width: 100%;
+  height:7em;
+  padding: 5px;
+  font-size: 20px;
+  background: #eee;
+  border: none;
+  box-shadow:0 0 5px #ccc inset;
+  text-align: left;
+}
+.submit{
+  font-size: 0;
+}
+
+#works, #broken{
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 50%;
+  background:#f66;
+}
+#works{
+  background:#6f6;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SilentIcon",
+  "id": "com.4nni3.silenticon",
+  "author": "あにー",
+  "version": "1.0",
+  "section": "Tweaks",
+  "description": "サイレントスイッチがオンの時(マナーモードの時)ステータスバーにアイコンを表示します。\nマナーモードのし忘れに気付けます！",
+  "support_min": 11,
+  "support_max": 12.1,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "-",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.silenticon_1.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null
+}
