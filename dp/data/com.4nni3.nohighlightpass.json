@@ -1,8 +1,7 @@
 {
   "name": "NoHighLightPass",
   "id": "com.4nni3.nohighlightpass",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "パスコード入力画面のナンバーパッドのタップ時のハイライトを無くします。他人に見られてもパスコードが分からないでしょう。",
   "support_min": 11,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

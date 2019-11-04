@@ -1,8 +1,7 @@
 {
   "name": "RespringButton",
   "id": "com.4nni3.respringbutton",
-  "author": "あにー",
-  "version": "1.4",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "コントロールセンターからリスプリング",
   "support_min": 11,
@@ -26,5 +25,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

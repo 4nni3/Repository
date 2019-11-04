@@ -1,8 +1,7 @@
 {
   "name": "FLEX Dump",
   "id": "com.4nni3.flexdump",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "FLEXでダンプしたヘッダーをファイル化します。\nターミナルで\nflexdump <FLEXのデータファイル> <出力するディレクトリ>\nの形式で使用してください\n例: flexdump ~/Documents/jp.naver.line.dat ~/output",
   "support_min": 11,
@@ -21,5 +20,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

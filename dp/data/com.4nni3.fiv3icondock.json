@@ -1,8 +1,7 @@
 {
   "name": "Fiv3IconDock",
   "id": "com.4nni3.fiv3icondock",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "ドックに置けるアイコンを5つに",
   "support_min": 9,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

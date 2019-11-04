@@ -1,8 +1,7 @@
 {
   "name": "LaunchSonyBankWallet",
   "id": "com.4nni3.launchsonybankwallet",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "",
   "support_min": null,
@@ -21,5 +20,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

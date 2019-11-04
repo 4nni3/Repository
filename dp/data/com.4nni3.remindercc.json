@@ -1,8 +1,7 @@
 {
   "name": "Reminder (CCSupport)",
   "id": "com.4nni3.remindercc",
-  "author": "あにー",
-  "version": "1.1",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "リマインダーを起動できるコントロールセンター用のボタンです。",
   "support_min": 11,
@@ -23,5 +22,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

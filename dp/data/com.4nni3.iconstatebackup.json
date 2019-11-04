@@ -1,8 +1,7 @@
 {
   "name": "IconStateBackUp",
   "id": "com.4nni3.iconstatebackup",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "ホーム画面のアイコンの配置をバックアップ！そして復元することができるアプリです！\nホーム画面に追加される <b>IconStateBU</b>というアプリを起動させて使用します。\n右上の<b>プラスボタン(+)</b>をタップすることで新規にバックアップを作成し、\nバックアップ一覧の目的のバックアップをタップすることで、\n<lu><li>Restore (復元)</li><li>Rename (名前の変更)</li><li>Delete (削除)</li></lu>といった機能を使うことができます！",
   "support_min": 10,
@@ -21,5 +20,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": "iOS11,12未対応です"
+  "info": "iOS11,12未対応です",
+  "app": null
 }

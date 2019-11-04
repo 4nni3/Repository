@@ -1,8 +1,7 @@
 {
   "name": "LINEPresentEnabler",
   "id": "com.4nni3.linepresentenabler",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "LINEアプリでのスタンププレゼント機能を有効化します。\n実際プレゼントできませんので、相手からブロックされているかの確認にご使用ください。",
   "support_min": 11,
@@ -21,5 +20,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

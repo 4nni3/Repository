@@ -1,8 +1,7 @@
 {
   "name": "EarphoneStatus",
   "id": "com.4nni3.earphonestatus",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "イヤホンやヘッドホン、スピーカーなどを接続している時にステータスバーにアイコンを表示します。接続されているかの確認に利用できます。",
   "support_min": 11,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": "libmooreconを使用して下さい"
+  "info": null,
+  "app": null
 }

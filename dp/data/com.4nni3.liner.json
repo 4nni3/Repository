@@ -1,8 +1,7 @@
 {
   "name": "LINER",
   "id": "com.4nni3.liner",
-  "author": "あにー",
-  "version": "1.4",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "LINEアプリ内でプロフィールのポップアップをピンチすることで色々な便利な機能が使えるアラートを表示します。",
   "header_img": "https://i.imgur.com/0ehWsn4.png",
@@ -37,5 +36,6 @@
   "images": [],
   "youtube": [],
   "icon": "https://i.imgur.com/uh13GlZ.png",
-  "info": null
+  "info": null,
+  "app": null
 }

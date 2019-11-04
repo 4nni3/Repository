@@ -8,7 +8,6 @@ if(preg_match('/ip(hone|od|ad)/', $agent)){
   $ios = floatval(str_replace('_', '.', $matches[1]));
 }
 if($info['support_min']==null||$info['support_max']==null){
-  //
   $compatible = -1;
 }else{
   $compatible = ($info['support_min']<=$ios&&$ios<=$info['support_max'])?1:0;
@@ -34,19 +33,19 @@ function toFixed1($num){
 <body ontouchstart="">
   <div class="container">
 
-    <?php if($info['info']!=null): ?>
+    <?php if ($info['info']!=null): ?>
     <div class="warning"><?php echo $info['info']; ?></div>
     <?php endif; ?>
 
-    <?php if($compatible==1): ?>
+    <?php if ($compatible==1): ?>
     <div class="compatible ok">Compatible with iOS<?php echo toFixed1($ios); ?></div>
-    <?php elseif($compatible==0): ?>
+    <?php elseif ($compatible==0): ?>
     <div class="compatible">Not compatible</div>
     <?php endif; ?>
 
-    <?php if(count($info['screenshots'])): ?>
+    <?php if (count($info['screenshots'])): ?>
     <div class="screenshots">
-      <?php foreach($info['screenshots'] as $ss): ?>
+      <?php foreach ($info['screenshots'] as $ss): ?>
       <img src="https://repo.4nni3.com/dp/ss/<?php echo $ss; ?>">
       <?php endforeach;  ?>
     </div>

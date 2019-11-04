@@ -38,7 +38,7 @@ SHA256: $(shasum -a 256 "$deb" | awk '{ print $1 }')$icon
 EOS
 done
 
-# cp Packages Packages.txt
+cp Packages Packages.txt
 bzip2 Packages
 
 git add .

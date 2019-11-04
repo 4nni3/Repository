@@ -1,8 +1,7 @@
 {
   "name": "FlexibleSwitch",
   "id": "com.4nni3.flexibleswitch",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "FLEXibleの表示と非表示をFlipswitchでスイッチ管理できます。SpringBoard上で閉じてしまったFLEXibleをもう一度開くこともできますし、アプリ内で何度も表示されるのを防ぐことができます。",
   "support_min": 11,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

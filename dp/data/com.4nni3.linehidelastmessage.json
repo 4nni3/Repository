@@ -1,8 +1,7 @@
 {
   "name": "LINEHideLastMessage",
   "id": "com.4nni3.linehidelastmessage",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "LINEアプリ内のトーク一覧で最後に送信または受信したメッセージの表示を隠します。\n覗き見防止(?)になります",
   "support_min": 11,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

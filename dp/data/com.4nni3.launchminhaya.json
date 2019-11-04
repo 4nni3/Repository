@@ -1,8 +1,7 @@
 {
   "name": "LaunchMINHAYA",
   "id": "com.4nni3.launchminhaya",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "みんはや　の脱獄対策を回避し起動できるようにします。",
   "support_min": null,
@@ -21,5 +20,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

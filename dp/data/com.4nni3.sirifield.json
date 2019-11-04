@@ -1,8 +1,7 @@
 {
   "name": "SiriField",
   "id": "com.4nni3.sirifield",
-  "author": "あにー",
-  "version": "1.1",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "Siriへの命令を入力できるテキストフィールド付きアラートを表示するFlipswitchです\nFlipControlCenterやActivatorから実行して下さい。",
   "support_min": 11,
@@ -30,5 +29,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

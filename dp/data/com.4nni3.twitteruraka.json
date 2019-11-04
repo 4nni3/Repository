@@ -1,8 +1,7 @@
 {
   "name": "TwitterUraka",
   "id": "com.4nni3.twitteruraka",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "Twitterアプリで裏垢を隠せます。設定アプリから隠すアカウントのユーザーIDを入力してください",
   "header_img": "https://i.imgur.com/ngF2M7s.png",
@@ -23,5 +22,6 @@
   "images": [],
   "youtube": [],
   "icon": "https://i.imgur.com/aE33t13.png",
-  "info": null
+  "info": null,
+  "app": null
 }

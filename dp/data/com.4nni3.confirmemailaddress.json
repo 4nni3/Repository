@@ -1,8 +1,7 @@
 {
   "name": "ConfirmEmailAddress",
   "id": "com.4nni3.confirmemailaddress",
-  "author": "あにー",
-  "version": "1.0",
+  "author": "4nni3",
   "section": "Tweaks",
   "description": "メールアプリでメールを送信する時に差出人(自分の)メールアドレスの確認を行います。サブのメールアドレスを持っている方などは誤送信抑制にご使用下さい。",
   "support_min": 11,
@@ -20,5 +19,6 @@
   "images": [],
   "youtube": [],
   "icon": null,
-  "info": null
+  "info": null,
+  "app": null
 }

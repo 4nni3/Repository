@@ -76,6 +76,12 @@ $tab1['views'][] = [
 ];
 
 $tab1['views'][] = [
+  "class"=>"DepictionTableButtonView",
+  "title"=>"Donate",
+  "action"=>"https://4nni3.com/donation/"
+];
+
+$tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
 
