@@ -1,0 +1,24 @@
+{
+  "name": "HideCarrier",
+  "id": "com.4nni3.hidecarrier",
+  "author": "4nni3"
+  "version": "1.0",
+  "section": "Tweaks",
+  "description": "Hide carrier name on statusbar.",
+  "support_min": 11,
+  "support_max": 12.4,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2019-11-04",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.hidecarrier_1.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null
+}

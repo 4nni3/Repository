@@ -1,0 +1,23 @@
+{
+  "name": "KH46MsgPlus",
+  "id": "com.4nni3.kh46msgplus",
+  "author": "4nni3"
+  "version": "1.0",
+  "section": "Tweaks",
+  "description": "Hold image to share.",
+  "support_min": null,
+  "support_max": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2019-11-04",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null
+}
+
