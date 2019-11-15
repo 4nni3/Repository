@@ -10,7 +10,7 @@ Version: 1.0
 Installed-Size: 428
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.bottomicon&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.bottomicon&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.bottomicon_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.bottomicon_1.0_iphoneos-arm.deb
 Size: 25032
 MD5sum: ff9d62e51049d11980b6f90eb261afd6
 SHA256: 271b2340e2d951a53f10cd6f8b961c80ad0be9f28e2e77c4c9bc9a2a7a1972e9
@@ -27,7 +27,7 @@ Version: 1.0
 Installed-Size: 424
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.checktweet&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.checktweet&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.checktweet_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.checktweet_1.0_iphoneos-arm.deb
 Size: 47752
 MD5sum: bfa002c8ecb303f78a544c5122c6d99c
 SHA256: 905c0bf5a44bff0e7a585b4003a53d2fa8237bca191aa67bc20d83dbbd9e7f9b
@@ -44,7 +44,7 @@ Version: 1.0
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.clearhome&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.clearhome&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.clearhome_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.clearhome_1.0_iphoneos-arm.deb
 Size: 2948
 MD5sum: daf8dcf71b1517c2d0bdaa10b7d97923
 SHA256: 0aa4807cd3515ba7c30674c6d5e9dc24b7c7e1a89373c4a0d3d75633ae8d94e5
@@ -61,7 +61,7 @@ Version: 1.1
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.clearhome&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.clearhome&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.clearhome_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.clearhome_1.1_iphoneos-arm.deb
 Size: 3008
 MD5sum: 55033d669b9188145381250af3bc224b
 SHA256: 3171ebd8de36d2122354f0b48793e4cbd9fbea3e8ccec9d2e477427c17208d71
@@ -78,7 +78,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.confirmemailaddress&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.confirmemailaddress&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.confirmemailaddress_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.confirmemailaddress_1.0_iphoneos-arm.deb
 Size: 7918
 MD5sum: 8288cd48e28176ff6e687c697a24a639
 SHA256: a741607f476b570920bd52c10458808af2a0fdee15f7ff9597a74f7a21f6979f
@@ -95,7 +95,7 @@ Version: 1:3.2~beta1
 Installed-Size: 276
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.2~beta1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.2~beta1
-Filename: https://repo.4nni3.com/debs/com.4nni3.coolcc_3.2~beta1_iphoneos-arm.deb
+Filename: debs/com.4nni3.coolcc_3.2~beta1_iphoneos-arm.deb
 Size: 29060
 MD5sum: 1e4fadc9d8e3230219f30644b54487ee
 SHA256: 6c1bf6f043b1eaca00acf64968a89ad4f9b28790fb3a5824f49cd93e77a3b17f
@@ -112,7 +112,7 @@ Version: 1:3.2~beta2
 Installed-Size: 308
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.2~beta2
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.2~beta2
-Filename: https://repo.4nni3.com/debs/com.4nni3.coolcc_3.2~beta2_iphoneos-arm.deb
+Filename: debs/com.4nni3.coolcc_3.2~beta2_iphoneos-arm.deb
 Size: 27858
 MD5sum: 135bad03702658f70b6e140d550587f9
 SHA256: 98c2b25c377f669a3c769098c321480a879889cd1bcd60c451c998b3b0fe056a
@@ -128,7 +128,7 @@ Section: Tweaks
 Version: 1:3.3~beta4
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.3~beta4
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.3~beta4
-Filename: https://repo.4nni3.com/debs/com.4nni3.coolcc_3.3~beta4_iphoneos-arm.deb
+Filename: debs/com.4nni3.coolcc_3.3~beta4_iphoneos-arm.deb
 Size: 36568
 MD5sum: 168eb287160df248ef6bedc38f729c7c
 SHA256: 3a7c4def7a731060106951062b4318ba5b37e665e10c7aee815f08f2aad8abf7
@@ -145,7 +145,7 @@ Version: 2.4
 Installed-Size: 332
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolfolder&v=2.4
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolfolder&v=2.4
-Filename: https://repo.4nni3.com/debs/com.4nni3.coolfolder_2.4_iphoneos-arm.deb
+Filename: debs/com.4nni3.coolfolder_2.4_iphoneos-arm.deb
 Size: 52162
 MD5sum: 986653733ede4c05e0a37ec9a7a1385e
 SHA256: b8cba024f63cd4a1ebb6afc1aad5eec258358259c273122686c3b2a8e2159b24
@@ -162,7 +162,7 @@ Version: 2.5
 Installed-Size: 332
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolfolder&v=2.5
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolfolder&v=2.5
-Filename: https://repo.4nni3.com/debs/com.4nni3.coolfolder_2.5_iphoneos-arm.deb
+Filename: debs/com.4nni3.coolfolder_2.5_iphoneos-arm.deb
 Size: 46654
 MD5sum: 46c4c0688012391d927c1f3efe553d33
 SHA256: 79d310d238acd27de60d23d2932b82697349cabe8a13cdd770a527010ba5dc83
@@ -179,7 +179,7 @@ Version: 1.0
 Installed-Size: 224
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.earphonestatus&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.earphonestatus&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.earphonestatus_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.earphonestatus_1.0_iphoneos-arm.deb
 Size: 14744
 MD5sum: 73bf2b2d98bd9053a3495e017a5ba21e
 SHA256: 2193524c01e09ee0601d9590609e7329b805f7f688d300ebf35f3a120cb5bf8f
@@ -196,7 +196,7 @@ Version: 1.0
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.fiv3icondock&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.fiv3icondock&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.fiv3icondock_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.fiv3icondock_1.0_iphoneos-arm.deb
 Size: 2742
 MD5sum: 705fbe1e13a7a271da99a8edf820cd1d
 SHA256: 5c62e7e43f3c549c4656dd2c55d94db7dbe87fd656a10b11c9f8bf5bf20bb047
@@ -214,7 +214,7 @@ Version: 1.0
 Installed-Size: 196
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.flexdump&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.flexdump&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.flexdump_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.flexdump_1.0_iphoneos-arm.deb
 Size: 7632
 MD5sum: 6b1b1698e9ee622aeda02ea6647ae55f
 SHA256: e1fd41d3b8bf1dff22ef83cc78b6b75e7ba74d5b9ae867796fb129b9710b44e4
@@ -232,7 +232,7 @@ Version: 1.0
 Installed-Size: 424
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.flexibleswitch&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.flexibleswitch&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.flexibleswitch_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.flexibleswitch_1.0_iphoneos-arm.deb
 Size: 18092
 MD5sum: 5f175156c2f4167e1859fa65e91dd9ec
 SHA256: 87f863ea08b4934684e25c6461837b3ca94d2975cd8426929bd3ff34ecb6a3f9
@@ -248,7 +248,7 @@ Version: 1.0
 Installed-Size: 196
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.getudid&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.getudid&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.getudid_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.getudid_1.0_iphoneos-arm.deb
 Size: 6688
 MD5sum: 5d9a0d4cef77653c318ad0dd17e97450
 SHA256: 5ee68e109f425581e3fa43a1affc3838fba4d637df8f72cba186ef81130844ea
@@ -265,7 +265,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.hidecarrier&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.hidecarrier&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.hidecarrier_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.hidecarrier_1.0_iphoneos-arm.deb
 Size: 3062
 MD5sum: 5b38dfc4be0817ced70351ae6225d139
 SHA256: 1dbe31669aaea3ee3a4878d97c37e3632dbda429875016f8ed3cbb30c865bb2c
@@ -282,7 +282,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.hidesbtimeonhome&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.hidesbtimeonhome&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.hidesbtimeonhome_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.hidesbtimeonhome_1.0_iphoneos-arm.deb
 Size: 3116
 MD5sum: 28f0d8a3b4c2517b416bb813da6cae53
 SHA256: f6040f15affc029cfff8aa7e5e3ecacf6e09a95873214ad66fa70ae6efb64751
@@ -298,7 +298,7 @@ Version: 1.0
 Installed-Size: 592
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.iconstatebackup&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.iconstatebackup&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.iconstatebackup_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.iconstatebackup_1.0_iphoneos-arm.deb
 Size: 210208
 MD5sum: 268d68c36a7add47135ed6739d6a0d5a
 SHA256: d80325bb7ad216568b757bc19aa8113d1c1cd4a3f8590cdc44e8afbd4d2e9b38
@@ -315,7 +315,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.incameradefault&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.incameradefault&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.incameradefault_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.incameradefault_1.0_iphoneos-arm.deb
 Size: 5090
 MD5sum: ddec6bea04f3069ce6a2e54ac4c1e2e8
 SHA256: d1bd9614dc55aea05c86f45c96db032607d68d073fd3d2680fadfe7cd9ca53ab
@@ -332,7 +332,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.kh46msgplus&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.kh46msgplus&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.kh46msgplus_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.kh46msgplus_1.0_iphoneos-arm.deb
 Size: 5380
 MD5sum: 44ee73ee775b5af25069845eeb16ed36
 SHA256: a7897cb09787964d7a7907f56480f85276f25cc8ed40500248cffc26a554295c
@@ -349,7 +349,7 @@ Version: 1.0
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.launchminhaya&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.launchminhaya&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.launchminhaya_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.launchminhaya_1.0_iphoneos-arm.deb
 Size: 3434
 MD5sum: a4498093cfa892b19be7292698bd0518
 SHA256: 0cfe947562bb0251849fdfa926727837c5363bf105ea05f68ed82ec97c0c242b
@@ -366,7 +366,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.launchsonybankwallet&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.launchsonybankwallet&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.launchsonybankwallet_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.launchsonybankwallet_1.0_iphoneos-arm.deb
 Size: 5994
 MD5sum: 2e7486c676c11b1384b7ce73c13b83e7
 SHA256: e302e5ba1ba326e27879bf875ebfdaddc588640342362b060d3ca55cccd74864
@@ -383,7 +383,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.lineconfirmcall&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.lineconfirmcall&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.lineconfirmcall_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.lineconfirmcall_1.0_iphoneos-arm.deb
 Size: 7904
 MD5sum: bd46f89e44cc305e384d23fe7c0555fc
 SHA256: d15cddab7922641518d33f4e52514b194339521cb912a386497ecf3ff4f461db
@@ -400,7 +400,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.linehidelastmessage&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.linehidelastmessage&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.linehidelastmessage_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.linehidelastmessage_1.0_iphoneos-arm.deb
 Size: 5490
 MD5sum: 31ec04c683a5ceec4f87bfc94a171ca2
 SHA256: b1da158f6814e801b63493677e8db3135d416bd1d6dacb47fc04d8c505733fb5
@@ -417,7 +417,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.linemidsearch&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.linemidsearch&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.linemidsearch_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.linemidsearch_1.0_iphoneos-arm.deb
 Size: 6148
 MD5sum: 06b4e69306a599dc1e07266e8952348c
 SHA256: c25c20ed7c183c4489387d2628c76ab38ad9f73503248f658d5ec45db6dd7d74
@@ -434,7 +434,7 @@ Version: 1.1
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.linemidsearch&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.linemidsearch&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.linemidsearch_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.linemidsearch_1.1_iphoneos-arm.deb
 Size: 6326
 MD5sum: e421e4b6e180d0698b2b197eb02e35d2
 SHA256: c43d6dbb9352d07c5c311cca493a03d16a9993cb70693487effeb3235e75de17
@@ -451,7 +451,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.lineotherspopup&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.lineotherspopup&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.lineotherspopup_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.lineotherspopup_1.0_iphoneos-arm.deb
 Size: 5838
 MD5sum: 303bbc33b07ebd1f322517ce06c94c50
 SHA256: 097e8ba706b5c3282aa7b2e6995bcc0455ba0e1a80added67bd0c9025e921543
@@ -468,7 +468,7 @@ Version: 1.1
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.lineotherspopup&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.lineotherspopup&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.lineotherspopup_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.lineotherspopup_1.1_iphoneos-arm.deb
 Size: 6548
 MD5sum: 437ad70e5312e4c97dd98c1c83dd4f68
 SHA256: c84900ad2e1f39f3a73a27193e6296c204f96f94c406bc988d12519c2688e907
@@ -485,7 +485,7 @@ Version: 1.0
 Installed-Size: 420
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.linepasscodeshot&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.linepasscodeshot&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.linepasscodeshot_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.linepasscodeshot_1.0_iphoneos-arm.deb
 Size: 33116
 MD5sum: d7f7d1e3febff52672c9acb44ad6e125
 SHA256: 66d7dcc23febc8acbffa1f1077e65c672f4dba72bc90cdf100ef7579feec6936
@@ -502,7 +502,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.linepresentenabler&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.linepresentenabler&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.linepresentenabler_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.linepresentenabler_1.0_iphoneos-arm.deb
 Size: 4802
 MD5sum: 4fd4a53a6b8caded5c5d8927b78936cf
 SHA256: 5a669f2524983a37f0775da79fc22c1641fdccb0b4258520401c1cc0d0cea734
@@ -519,7 +519,7 @@ Version: 1.0
 Installed-Size: 420
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.0_iphoneos-arm.deb
 Size: 38450
 MD5sum: 962f7fa103dac0cfe8093480edb462a2
 SHA256: d3a0d00198b2d81b288b1dd938f10be147c65e7ade57deacf9aef9535087f719
@@ -536,7 +536,7 @@ Version: 1.1
 Installed-Size: 420
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.1_iphoneos-arm.deb
 Size: 37896
 MD5sum: aeea28bd109a76d449d75f76f9d2bd1c
 SHA256: 7204fb441d8f08bdd3bf1f41732aa0d2550186e76443e8388dd9f86c4ce69798
@@ -553,7 +553,7 @@ Version: 1.2
 Installed-Size: 260
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.2
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.2
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.2_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.2_iphoneos-arm.deb
 Size: 20044
 MD5sum: e9453a28427def83c7879ef82fe56e11
 SHA256: 2e5a818bb572e72e183e99e4e5a9334bf61dd470024d014b018adf65d3ca2d2a
@@ -570,7 +570,7 @@ Version: 1.3
 Installed-Size: 260
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.3
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.3
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.3_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.3_iphoneos-arm.deb
 Size: 19980
 MD5sum: 6432455deb0020853c0a419a9e85d5cd
 SHA256: b7d4ffd292ec3b285c11841dbba08eca3907f60ada9c204883b93a74a95d9a93
@@ -587,7 +587,7 @@ Version: 1.4
 Installed-Size: 276
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.4
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.4
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.4_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.4_iphoneos-arm.deb
 Size: 21088
 MD5sum: 554ab3b7647a591f75bfd4d2fed91142
 SHA256: 34181ded6793b0d6ca64a16f05d9deb0c9f3deeba4100e685d5678cecef709c8
@@ -604,7 +604,7 @@ Version: 1.5
 Installed-Size: 276
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.liner&v=1.5
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.liner&v=1.5
-Filename: https://repo.4nni3.com/debs/com.4nni3.liner_1.5_iphoneos-arm.deb
+Filename: debs/com.4nni3.liner_1.5_iphoneos-arm.deb
 Size: 21082
 MD5sum: 8067b70bf2f8ced6f7b073d027af89d3
 SHA256: a0925566e04567497e5898b2f2aacc739f1bd7082b764bdccce313e1fa52ff69
@@ -621,7 +621,7 @@ Version: 1.0
 Installed-Size: 136
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.monoaudioswitch&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.monoaudioswitch&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.monoaudioswitch_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.monoaudioswitch_1.0_iphoneos-arm.deb
 Size: 10896
 MD5sum: 54b0bd348dab34fd8f57a05ef07854a0
 SHA256: 68e27d5877bd9a2e0cde2b35ecf2d1ea7a9b5a4f81c5d25a3a8d980b7acb9e66
@@ -638,7 +638,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.nohighlightpass&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.nohighlightpass&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.nohighlightpass_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.nohighlightpass_1.0_iphoneos-arm.deb
 Size: 4846
 MD5sum: 4f274882edfc019c04efa30a7f31e945
 SHA256: 7ac015e5714834f5a64a7584c010ac28f7f78238de05d6209abf24d44bcd2816
@@ -655,7 +655,7 @@ Version: 1.0
 Installed-Size: 136
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.remindercc&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.remindercc&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.remindercc_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.remindercc_1.0_iphoneos-arm.deb
 Size: 10846
 MD5sum: cc44a3d3f266058c663f0768df2c3dc0
 SHA256: 08babda051e7bc634a359ae5a73a038b13f66b850c2773790d937f3e3953eca2
@@ -672,7 +672,7 @@ Version: 1.1
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.remindercc&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.remindercc&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.remindercc_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.remindercc_1.1_iphoneos-arm.deb
 Size: 6336
 MD5sum: d58521ed36d29acf741819c0bf9dff24
 SHA256: e484d74151b1006bef77fb3a46baba92cabba6eb47e39e12dd4e55c09c9942c2
@@ -689,7 +689,7 @@ Version: 1.0
 Installed-Size: 136
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.respringbutton&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.respringbutton&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.respringbutton_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.respringbutton_1.0_iphoneos-arm.deb
 Size: 12018
 MD5sum: 61a45637170ee8b86876318d36b57f78
 SHA256: 939970933d963c59d489b6293434c8a9a5cce949e4d1cdd5b534e79c18f67e22
@@ -706,7 +706,7 @@ Version: 1.1
 Installed-Size: 144
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.respringbutton&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.respringbutton&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.respringbutton_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.respringbutton_1.1_iphoneos-arm.deb
 Size: 12342
 MD5sum: 14d149ea46a2bc3deac068999b33e0e0
 SHA256: 79e2ac6123e9b1c7530ea70b87bb043c23cc8bd2b90bcea22f4c04f1f44d37ed
@@ -723,7 +723,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sbtimeformatchanger&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sbtimeformatchanger&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.sbtimeformatchanger_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.sbtimeformatchanger_1.0_iphoneos-arm.deb
 Size: 5820
 MD5sum: 22c417c2b144971a4a07a56d4f8094ae
 SHA256: a099fd738719fee0268a6726a72ff55c59f7d099628a945f9ff243a8f7970453
@@ -740,7 +740,7 @@ Version: 1.0
 Installed-Size: 224
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.silenticon&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.silenticon&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.silenticon_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.silenticon_1.0_iphoneos-arm.deb
 Size: 13206
 MD5sum: 93d991620c8e0e33fc3d0a41d5ef4e23
 SHA256: cdc1bd490010d4a2c4dafd77730c40fd851417322c0d493a9be159a558f8fede
@@ -757,7 +757,7 @@ Version: 1.0
 Installed-Size: 192
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.silentswitchcc&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.silentswitchcc&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.silentswitchcc_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.silentswitchcc_1.0_iphoneos-arm.deb
 Size: 20190
 MD5sum: 4b1834400a25c054f5248479fca14e1d
 SHA256: caa4d3b110b37f05c7e95bade1b1f6c15b60f928d4eb4d6dde86b2f591c1c4e6
@@ -774,7 +774,7 @@ Version: 1.0
 Installed-Size: 396
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.siricommand&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.siricommand&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.siricommand_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.siricommand_1.0_iphoneos-arm.deb
 Size: 12378
 MD5sum: 6e71629933a22ec2c82ef4bb182bb5fa
 SHA256: deb3f73c37abf324b3edb93dc383afe5625555892199c7adf4a09b4e8da065c5
@@ -792,7 +792,7 @@ Version: 1.0
 Installed-Size: 224
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sirifield&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sirifield&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.sirifield_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.sirifield_1.0_iphoneos-arm.deb
 Size: 15982
 MD5sum: 3aa422dc4a9889815664c7bd5d0a9adb
 SHA256: 301c10b7e4aaf9c40092c04e125fc6d23904f89917d1e634acbef64631dba4df
@@ -810,7 +810,7 @@ Version: 1.1
 Installed-Size: 176
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sirifield&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sirifield&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.sirifield_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.sirifield_1.1_iphoneos-arm.deb
 Size: 9516
 MD5sum: e08e15204d5cff3003f99dc48630bf9f
 SHA256: fb24fe6a7fbee29844877c5119c6a4fb2001ae5b7c86c363025fd3034d78a1ef
@@ -827,7 +827,7 @@ Version: 1.0
 Installed-Size: 180
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sirifieldcc&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sirifieldcc&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.sirifieldcc_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.sirifieldcc_1.0_iphoneos-arm.deb
 Size: 12952
 MD5sum: d3f6559c412399ca56201ad2d3d8075a
 SHA256: 2b0871759c459b1a1263f505cb5950091bdd4a1927a22497294f332c60107ca5
@@ -844,7 +844,7 @@ Version: 1.1
 Installed-Size: 188
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sirifieldcc&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sirifieldcc&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.sirifieldcc_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.sirifieldcc_1.1_iphoneos-arm.deb
 Size: 15740
 MD5sum: 28b6b6816d984a3a4a25b1864bd82f38
 SHA256: 2052af31101a420563102bb99861e72651b955460267fc92dc0a7429c0329447
@@ -861,7 +861,7 @@ Version: 1.0
 Installed-Size: 136
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.snowcc&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.snowcc&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.snowcc_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.snowcc_1.0_iphoneos-arm.deb
 Size: 9530
 MD5sum: 01751577321c5c50ef14f5f37e98add6
 SHA256: a8a7635ee82120ff0d17427d4f6a4e4d581fb10a3a0e14b75c8bb0c6495ca0fb
@@ -878,7 +878,7 @@ Version: 1.1
 Installed-Size: 120
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.snowcc&v=1.1
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.snowcc&v=1.1
-Filename: https://repo.4nni3.com/debs/com.4nni3.snowcc_1.1_iphoneos-arm.deb
+Filename: debs/com.4nni3.snowcc_1.1_iphoneos-arm.deb
 Size: 7608
 MD5sum: b7853fde446a4b8501e58d4e5b365ac7
 SHA256: 7381bf9005f10c6fb8d1efc6a47bbf1347161c31dcef7ca13e8b666e33dea03b
@@ -895,7 +895,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.twitterconfirmfavorite&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.twitterconfirmfavorite&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.twitterconfirmfavorite_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.twitterconfirmfavorite_1.0_iphoneos-arm.deb
 Size: 7314
 MD5sum: e6a4b45c89e926940f799cccd331e77c
 SHA256: 70ee3f9280d93141d8b26d806eeca0b2a0ee6e5cbfe8c496c81acd434f44043f
@@ -912,7 +912,7 @@ Version: 1.0
 Installed-Size: 200
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.twitterconfirmfollow&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.twitterconfirmfollow&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.twitterconfirmfollow_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.twitterconfirmfollow_1.0_iphoneos-arm.deb
 Size: 8280
 MD5sum: d9df14cbb4cc994d4ead58a389f5b5d1
 SHA256: 887d7d3dfccb225a8126af8b667c7b899bdc18386e189497f9fef7d9c4300f27
@@ -930,7 +930,7 @@ Version: 1.0
 Installed-Size: 268
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.twitteruraka&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.twitteruraka&v=1.0
-Filename: https://repo.4nni3.com/debs/com.4nni3.twitteruraka_1.0_iphoneos-arm.deb
+Filename: debs/com.4nni3.twitteruraka_1.0_iphoneos-arm.deb
 Size: 24066
 MD5sum: 89aaa6b4552563f1354644145b73ffdc
 SHA256: 5e359cd89b87d0d51edfe3a0eba08b9f3412436090858a1f38282e8c8a3e6bc5

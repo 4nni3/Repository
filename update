@@ -33,7 +33,7 @@ Icon: ${img}"
 $(dpkg-deb -f "$deb")
 Depiction: ${heroku}/dp/?p=${pkg}&v=${vsn}
 SileoDepiction: ${heroku}/dp/sileo.php?p=${pkg}&v=${vsn}
-Filename: ${github}/${deb}
+Filename: ${deb}
 Size: $(wc -c "$deb" | awk '{ print $1 }')
 MD5sum: $(md5 -r "$deb" | awk '{ print $1 }')
 SHA256: $(shasum -a 256 "$deb" | awk '{ print $1 }')${icon}
@@ -58,7 +58,7 @@ bzip2 Packages
 
 cp Packages.txt secret/Packages
 touch secret/Packages
-for deb in secret/debs/*.deb; do
+for deb in secret/hono/*.deb; do
   echo "$deb"
   getCtrl "$deb" >> secret/Packages
 done
@@ -70,14 +70,5 @@ git add .
 git commit -m "update $(date +%Y%m%d%H%M)"
 git push -f origin master
 
-
-exit
-
-# clear cloudflare cache
-curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${CFZONE}/purge_cache" \
-    -H "Content-Type:application/json" \
-    -H "X-Auth-Key: ${CFKEY}" \
-    -H "X-Auth-Email: ${CFMAIL}" \
-    --data '{ "purge_everything": true }'
 echo
 
