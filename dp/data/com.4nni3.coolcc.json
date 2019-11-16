@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "コントロールセンターをカッコよくします！\n \nCompiled by @ichitaso! ",
   "support_min": 11,
-  "support_max": 12.4,
+  "support_max": 13.2,
   "changelog": [
     {
       "version": "3.2~beta1",
@@ -21,6 +21,11 @@
       "version": "3.3~beta4",
       "date": "2019-08-25",
       "description": "Support iOS12.4"
+    },
+    {
+      "version": "3.4~beta1",
+      "date": "2019-11-16",
+      "description": "Support ios 13"
     }
   ],
   "screenshots": [
