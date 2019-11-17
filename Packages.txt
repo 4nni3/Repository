@@ -84,40 +84,6 @@ MD5sum: 8288cd48e28176ff6e687c697a24a639
 SHA256: a741607f476b570920bd52c10458808af2a0fdee15f7ff9597a74f7a21f6979f
 
 Package: com.4nni3.coolcc
-Name: CoolCC
-Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
-Architecture: iphoneos-arm
-Description: This tweak makes ControlCenter cool!
-Maintainer: 4nni3 <4nni3.14@gmail.com>
-Author: 4nni3 <4nni3.14@gmail.com>
-Section: Tweaks
-Version: 1:3.4~beta1
-Installed-Size: 448
-Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.4~beta1
-SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.4~beta1
-Filename: debs/com.4nni3.coolcc_1:3.4~beta1_iphoneos-arm.deb
-Size: 42648
-MD5sum: b7328b72bf66e126485eb4dcfd3cdfab
-SHA256: 6e408ea4dd44c417c4eb7a621d4161b47eaa234f60aa52179271964eceabf28a
-
-Package: com.4nni3.coolcc
-Name: CoolCC
-Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
-Architecture: iphoneos-arm
-Description: This tweak makes ControlCenter cool!
-Maintainer: 4nni3 <4nni3.14@gmail.com>
-Author: 4nni3 <4nni3.14@gmail.com>
-Section: Tweaks
-Version: 1:3.4~beta2
-Installed-Size: 448
-Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.4~beta2
-SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.4~beta2
-Filename: debs/com.4nni3.coolcc_1:3.4~beta2_iphoneos-arm.deb
-Size: 42152
-MD5sum: b0cb583f8d9fef097dc7685db22aff63
-SHA256: 8c8e4347dbeb206225f8414129ddd6d44e4ce34911c48032aad66ffe8514bef4
-
-Package: com.4nni3.coolcc
 Name: CoolCC (Beta)
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
@@ -133,6 +99,7 @@ Filename: debs/com.4nni3.coolcc_3.2~beta1_iphoneos-arm.deb
 Size: 29060
 MD5sum: 1e4fadc9d8e3230219f30644b54487ee
 SHA256: 6c1bf6f043b1eaca00acf64968a89ad4f9b28790fb3a5824f49cd93e77a3b17f
+Icon: https://i.imgur.com/YrOjbdc.png
 
 Package: com.4nni3.coolcc
 Name: CoolCC (Beta)
@@ -150,6 +117,7 @@ Filename: debs/com.4nni3.coolcc_3.2~beta2_iphoneos-arm.deb
 Size: 27858
 MD5sum: 135bad03702658f70b6e140d550587f9
 SHA256: 98c2b25c377f669a3c769098c321480a879889cd1bcd60c451c998b3b0fe056a
+Icon: https://i.imgur.com/YrOjbdc.png
 
 Package: com.4nni3.coolcc
 Name: CoolCC
@@ -166,6 +134,43 @@ Filename: debs/com.4nni3.coolcc_3.3~beta4_iphoneos-arm.deb
 Size: 36568
 MD5sum: 168eb287160df248ef6bedc38f729c7c
 SHA256: 3a7c4def7a731060106951062b4318ba5b37e665e10c7aee815f08f2aad8abf7
+Icon: https://i.imgur.com/YrOjbdc.png
+
+Package: com.4nni3.coolcc
+Name: CoolCC
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm
+Description: This tweak makes ControlCenter cool!
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1:3.4~beta1
+Installed-Size: 448
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.4~beta1
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.4~beta1
+Filename: debs/com.4nni3.coolcc_3.4~beta1_iphoneos-arm.deb
+Size: 42648
+MD5sum: b7328b72bf66e126485eb4dcfd3cdfab
+SHA256: 6e408ea4dd44c417c4eb7a621d4161b47eaa234f60aa52179271964eceabf28a
+Icon: https://i.imgur.com/YrOjbdc.png
+
+Package: com.4nni3.coolcc
+Name: CoolCC
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm
+Description: This tweak makes ControlCenter cool!
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1:3.4~beta3
+Installed-Size: 448
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:3.4~beta3
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:3.4~beta3
+Filename: debs/com.4nni3.coolcc_3.4~beta3_iphoneos-arm.deb
+Size: 42344
+MD5sum: 91e8179862ba9620781ccc26ea81270b
+SHA256: 0689c05fa3ee1ee17be6e63e6873334c2611af71e860d59aefa64565d250f50f
+Icon: https://i.imgur.com/YrOjbdc.png
 
 Package: com.4nni3.coolfolder
 Name: CoolFolder
@@ -183,6 +188,7 @@ Filename: debs/com.4nni3.coolfolder_2.4_iphoneos-arm.deb
 Size: 52162
 MD5sum: 986653733ede4c05e0a37ec9a7a1385e
 SHA256: b8cba024f63cd4a1ebb6afc1aad5eec258358259c273122686c3b2a8e2159b24
+Icon: https://i.imgur.com/CCEjQLx.png
 
 Package: com.4nni3.coolfolder
 Name: CoolFolder
@@ -200,6 +206,7 @@ Filename: debs/com.4nni3.coolfolder_2.5_iphoneos-arm.deb
 Size: 46654
 MD5sum: 46c4c0688012391d927c1f3efe553d33
 SHA256: 79d310d238acd27de60d23d2932b82697349cabe8a13cdd770a527010ba5dc83
+Icon: https://i.imgur.com/CCEjQLx.png
 
 Package: com.4nni3.earphonestatus
 Name: EarphoneStatus
@@ -557,6 +564,7 @@ Filename: debs/com.4nni3.liner_1.0_iphoneos-arm.deb
 Size: 38450
 MD5sum: 962f7fa103dac0cfe8093480edb462a2
 SHA256: d3a0d00198b2d81b288b1dd938f10be147c65e7ade57deacf9aef9535087f719
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.liner
 Name: LINER
@@ -574,6 +582,7 @@ Filename: debs/com.4nni3.liner_1.1_iphoneos-arm.deb
 Size: 37896
 MD5sum: aeea28bd109a76d449d75f76f9d2bd1c
 SHA256: 7204fb441d8f08bdd3bf1f41732aa0d2550186e76443e8388dd9f86c4ce69798
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.liner
 Name: LINER
@@ -591,6 +600,7 @@ Filename: debs/com.4nni3.liner_1.2_iphoneos-arm.deb
 Size: 20044
 MD5sum: e9453a28427def83c7879ef82fe56e11
 SHA256: 2e5a818bb572e72e183e99e4e5a9334bf61dd470024d014b018adf65d3ca2d2a
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.liner
 Name: LINER
@@ -608,6 +618,7 @@ Filename: debs/com.4nni3.liner_1.3_iphoneos-arm.deb
 Size: 19980
 MD5sum: 6432455deb0020853c0a419a9e85d5cd
 SHA256: b7d4ffd292ec3b285c11841dbba08eca3907f60ada9c204883b93a74a95d9a93
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.liner
 Name: LINER
@@ -625,6 +636,7 @@ Filename: debs/com.4nni3.liner_1.4_iphoneos-arm.deb
 Size: 21088
 MD5sum: 554ab3b7647a591f75bfd4d2fed91142
 SHA256: 34181ded6793b0d6ca64a16f05d9deb0c9f3deeba4100e685d5678cecef709c8
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.liner
 Name: LINER
@@ -642,6 +654,7 @@ Filename: debs/com.4nni3.liner_1.5_iphoneos-arm.deb
 Size: 21082
 MD5sum: 8067b70bf2f8ced6f7b073d027af89d3
 SHA256: a0925566e04567497e5898b2f2aacc739f1bd7082b764bdccce313e1fa52ff69
+Icon: https://i.imgur.com/uh13GlZ.png
 
 Package: com.4nni3.monoaudioswitch
 Name: MonoAudioSwitch

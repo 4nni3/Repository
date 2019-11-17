@@ -17,7 +17,7 @@ function getCtrl(){
   pkg=$(dpkg-deb -f "$deb" package)
   vsn=$(dpkg-deb -f "$deb" version)
 
-  json="dp/data/$p.json"
+  json="dp/data/${pkg}.json"
   img="null"
   if [ -e "$json" ]; then
     img=$(jq -r '.icon' "$json")
