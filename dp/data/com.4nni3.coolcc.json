@@ -36,6 +36,11 @@
       "version": "3.4~beta3",
       "date": "2019-11-17",
       "description": "fix for ios12.4"
+    },
+    {
+      "version": "3.4~beta4",
+      "date": "2019-11-18",
+      "description": "fix color setting bug"
     }
   ],
   "screenshots": [
