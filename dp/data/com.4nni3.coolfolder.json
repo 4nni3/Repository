@@ -36,6 +36,11 @@
       "version": "2.5",
       "date": "2019-09-24",
       "description": "Fix crash bug"
+    },
+    {
+      "version": "2.6~beta1",
+      "date": "2019-11-23",
+      "description": "support for ios 13"
     }
   ],
   "screenshots": [
