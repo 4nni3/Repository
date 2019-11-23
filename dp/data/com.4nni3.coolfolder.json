@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "ホーム画面のフォルダーにボーダーを付け背景を消しカッコよくします",
   "support_min": 9,
-  "support_max": 12.4,
+  "support_max": 13.2,
   "changelog": [
     {
       "version": "1.0",
