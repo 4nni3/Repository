@@ -4,8 +4,8 @@
   "author": "4nni3",
   "section": "Tweaks",
   "description": "LINEアプリでのスタンププレゼント機能を有効化します。\n実際プレゼントできませんので、相手からブロックされているかの確認にご使用ください。",
-  "support_min": 11,
-  "support_max": 12.2,
+  "support_min": null,
+  "support_max": null,
   "changelog": [
     {
       "version": "1.0",

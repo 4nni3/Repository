@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "ドックに置けるアイコンを5つに",
   "support_min": 9,
-  "support_max": 12.2,
+  "support_max": 12.4,
   "changelog": [
     {
       "version": "1.0",

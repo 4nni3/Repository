@@ -4,8 +4,8 @@
   "author": "4nni3",
   "section": "Tweaks",
   "description": "LINEアプリ内でパスコードを間違えた時に内カメラで顔をこっそり撮影し、写真アプリに保存します。\n設定アプリから\n有効or無効の切り替え\n何回までパスコードの間違いを許すか\nを設定できます。",
-  "support_min": 11,
-  "support_max": 12.2,
+  "support_min": null,
+  "support_max": null,
   "changelog": [
     {
       "version": "1.0",

@@ -25,33 +25,35 @@
     {
       "version": "2.2-beta",
       "date": "2019-02-24",
-      "description": "ios12に対応"
+      "description": "iOS12 Support."
     },
     {
       "version": "2.4",
       "date": "2019-09-23",
-      "description": "support arm64e. and add colorpicker"
+      "description": "arm64e Support. & Add libcolorpicker."
     },
     {
       "version": "2.5",
       "date": "2019-09-24",
-      "description": "Fix crash bug"
+      "description": "Fix a crash bug."
     },
     {
       "version": "2.6~beta1",
       "date": "2019-11-23",
-      "description": "support for ios 13"
+      "description": "iOS 13 Support."
     }
   ],
   "screenshots": [
     "com.4nni3.coolfolder_1.png",
     "com.4nni3.coolfolder_2.png",
     "com.4nni3.coolfolder_3.png",
-    "com.4nni3.coolfolder_4.png"
+    "com.4nni3.coolfolder_4.png",
+    "com.4nni3.coolfolder_5.png"
   ],
   "images": [],
   "youtube": [],
-  "icon": "https://i.imgur.com/CCEjQLx.png",
+  "header_img": "https://i.imgur.com/BC5t6FI.png",
+  "icon": "https://i.imgur.com/DfqBEM7.png",
   "info": null,
   "app": null
 }

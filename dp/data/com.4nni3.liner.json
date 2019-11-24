@@ -5,8 +5,8 @@
   "section": "Tweaks",
   "description": "LINEアプリ内でプロフィールのポップアップをピンチすることで色々な便利な機能が使えるアラートを表示します。",
   "header_img": "https://i.imgur.com/0ehWsn4.png",
-  "support_min": 11,
-  "support_max": 12.4,
+  "support_min": null,
+  "support_max": null,
   "changelog": [
     {
       "version": "1.0",
