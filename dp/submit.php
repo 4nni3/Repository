@@ -1,5 +1,7 @@
 <?php
 
+//Sileo用 動作報告
+
 $url = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSchaB-HrJ0HYRuKROVKjkQjVAlNO6bSo8AmHikZz-2_MKXkvw/formResponse";
 
 $p = $_GET['p'];

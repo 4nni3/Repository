@@ -11,23 +11,30 @@ function toFixed1($num){
   return $str;
 }
 
+// 説明のjsonを取得
 $info = json_decode(file_get_contents('data/'.$package.'.json'), true);
 
+
+// ---- タブ1 ----
 $tab1 = [
   "class"=>"DepictionStackView",
   "tabname"=>"Details",
   "views"=>[]
 ];
 
+
+// 警告
 if($info['info']!=null){
   $tab1['views'][] = [
     "class"=>"DepictionMarkdownView",
     "markdown"=>'<center><b><span style="color:#a00;">'.$info['info'].'</span></b></center>',
-    "useSpacing"=>true,
+    "useSpacing"=>false,
     "useRawFormat"=>true
   ];
 }
 
+
+// スクショ
 if(count($info['screenshots'])){
   $sss = [
     "class"=>"DepictionScreenshotsView",
@@ -41,19 +48,30 @@ if(count($info['screenshots'])){
       "accessibilityText"=>"Screenshot"
     ];
   }
+
   $tab1['views'][] = $sss;
-  $tab1['views'][] = [
-    "class"=>"DepictionSeparatorView"
-  ];
 }
 
 $tab1['views'][] = [
+  "class"=>"DepictionSeparatorView"
+];
+
+
+// 説明文
+$tab1['views'][] = [
   "class"=>"DepictionMarkdownView",
   "markdown"=>$info['description'],
-  "useSpacing"=>true,
+  "useSpacing"=>false,
   "useRawFormat"=>true
 ];
 
+$tab1['views'][] = [
+  "class"=>"DepictionSeparatorView"
+];
+
+
+// 広告
+/*
 $tab1['views'][] = [
   "class"=>"DepictionAdmobView",
   "adUnitID"=>"ca-app-pub-7732927685565784/9541680779"
@@ -62,7 +80,10 @@ $tab1['views'][] = [
 $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
+*/
 
+
+// 私の宣伝
 $tab1['views'][] = [
   "class"=>"DepictionTableButtonView",
   "title"=>"4nni3.com",
@@ -85,16 +106,39 @@ $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
 
+
+// 動作報告
+$tab1['views'][] = [
+  "class"=>"DepictionHeaderView",
+  "title"=>"Work?"
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionButtonView",
+  "text"=>"Works",
+  "action"=>"https://nni43-repo.herokuapp.com/dp/submit.php?p=".$package."&v=".$version."&c=1"
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionButtonView",
+  "text"=>"Broken",
+  "action"=>"https://nni43-repo.herokuapp.com/dp/submit.php?p=".$package."&v=".$version."&c=0"
+];
+
+
+// パッケージ情報
 $tab1['views'][] = [
   "class"=>"DepictionHeaderView",
   "title"=>"Information"
 ];
 
+/*
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
   "title"=>"PackageID",
   "text"=>$package
 ];
+*/
 
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
@@ -102,6 +146,7 @@ $tab1['views'][] = [
   "text"=>end($info['changelog'])['version']
 ];
 
+/*
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
   "title"=>"Developer",
@@ -113,13 +158,20 @@ $tab1['views'][] = [
   "title"=>"Section",
   "text"=>$info['section']
 ];
+*/
 
-$tab1['views'][] = [
-  "class"=>"DepictionTableTextView",
-  "title"=>"Compatibility",
-  "text"=>'iOS'.toFixed1($info['support_min']).' ~ '.toFixed1($info['support_max'])
-];
+if (isset($info['support_min'])) {
+  $tab1['views'][] = [
+    "class"=>"DepictionTableTextView",
+    "title"=>"Support",
+    "text"=>'iOS '
+      .toFixed1($info['support_min'])
+      .' ~ '
+      .toFixed1($info['support_max'])
+  ];
+}
 
+// ---- タブ2 (更新履歴) ----
 $tab2 = [
   "class"=>"DepictionStackView",
   "tabname"=>"Changelog",
@@ -135,7 +187,7 @@ foreach($info['changelog'] as $log){
   ],[
     "class"=>"DepictionMarkdownView",
     "markdown"=>$log['description'],
-    "useSpacing"=>true,
+    "useSpacing"=>false,
     "useRawFormat"=>true
   ],[
     "class"=>"DepictionSeparatorView"
@@ -143,34 +195,15 @@ foreach($info['changelog'] as $log){
 }
 
 
-$tab1['views'][] = [
-  "class"=>"DepictionSeparatorView"
-];
-
-$tab1['views'][] = [
-  "class"=>"DepictionHeaderView",
-  "title"=>"Work?"
-];
-
-$tab1['views'][] = [
-  "class"=>"DepictionButtonView",
-  "text"=>"Works",
-  "action"=>"https://nni43-repo.herokuapp.com/dp/c.php?p=".$package."&v=".$version."&c=1"
-];
-
-$tab1['views'][] = [
-  "class"=>"DepictionButtonView",
-  "text"=>"Broken",
-  "action"=>"https://nni43-repo.herokuapp.com/dp/c.php?p=".$package."&v=".$version."&c=0"
-];
-
+// ヘッダ画像の設定
 $header = isset($info["header_img"])?$info["header_img"]:"https://i.imgur.com/WjBxxH3.png";
 
+// JSON表示!
 header("Access-Control-Allow-Origin: *");
 echo json_encode([
   "minVersion"=>"0.1",
   "headerImage"=>$header,
-  "tintColor"=>"#000088",
+  "tintColor"=>"#5EB954",
   "class"=>"DepictionTabView",
   "tabs"=>[$tab1, $tab2]
 ]);
