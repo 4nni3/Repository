@@ -28,7 +28,7 @@ if($info['info']!=null){
   $tab1['views'][] = [
     "class"=>"DepictionMarkdownView",
     "markdown"=>'<center><b><span style="color:#a00;">'.$info['info'].'</span></b></center>',
-    "useSpacing"=>false,
+    "useSpacing"=>true,
     "useRawFormat"=>true
   ];
 }
@@ -61,7 +61,7 @@ $tab1['views'][] = [
 $tab1['views'][] = [
   "class"=>"DepictionMarkdownView",
   "markdown"=>$info['description'],
-  "useSpacing"=>false,
+  "useSpacing"=>true,
   "useRawFormat"=>true
 ];
 

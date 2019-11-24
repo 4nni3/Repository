@@ -122,6 +122,9 @@ function submitForm(co){
         }
     );
 
+    $('#comment').val('');
+    $('#submit').empty();
+    $('#submit').text('Thank you');
 }
 
 $('#works').click(function(){ submitForm("動いた"); });
