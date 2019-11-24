@@ -4,13 +4,13 @@
    "itemCornerRadius":6,
    "banners":[  
       {  
-         "url":"https://i.imgur.com/DMNWkVI.png",
+         "url":"https://i.imgur.com/D7ykEhL.png",
          "title":"CoolCC",
          "package":"com.4nni3.coolcc",
          "hideShadow":false
       },
       {  
-         "url":"https://i.imgur.com/BC5t6FI.png",
+         "url":"https://i.imgur.com/DaV9z9N.png",
          "title":"CoolFolder",
          "package":"com.4nni3.coolfolder",
          "hideShadow":false
