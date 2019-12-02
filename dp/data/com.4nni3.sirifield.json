@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "Siriへの命令を入力できるテキストフィールド付きアラートを表示するFlipswitchです\nFlipControlCenterやActivatorから実行して下さい。",
   "support_min": 11,
-  "support_max": 12.2,
+  "support_max": 12.4,
   "changelog": [
     {
       "version": "1.0",

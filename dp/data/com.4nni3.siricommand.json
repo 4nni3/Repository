@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "Siriへ命令できるコマンドを追加します。Terminalなどから実行して下さい。\nsiri \"命令\" の形で入力して下さい。\nActivatorなどから実行すれば便利に使えるかと思います。",
   "support_min": 11,
-  "support_max": 11,
+  "support_max": 12.4,
   "changelog": [
     {
       "version": "1.0",
