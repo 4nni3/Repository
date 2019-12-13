@@ -1,0 +1,22 @@
+{
+  "name": "SOSRespring",
+  "id": "com.4nni3.sosrespring",
+  "author": "4nni3",
+  "section": "Tweaks",
+  "description": "Press volume button quickly in the order of up, up, up, down, down, down, up, up, and up to Respring.\nUseful when the screen becomes inoperable.\n•••---•••",
+  "support_min": 11,
+  "support_max": 13.3,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2019-12-13",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null,
+  "app": null
+}

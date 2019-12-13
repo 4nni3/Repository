@@ -966,6 +966,23 @@ Size: 7608
 MD5sum: b7853fde446a4b8501e58d4e5b365ac7
 SHA256: 7381bf9005f10c6fb8d1efc6a47bbf1347161c31dcef7ca13e8b666e33dea03b
 
+Package: com.4nni3.sosrespring
+Name: SOSRespring
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description:  Turn ↑↑↑↓↓↓↑↑↑ to respring.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.0
+Installed-Size: 200
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.sosrespring&v=1.0
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.sosrespring&v=1.0
+Filename: debs/com.4nni3.sosrespring_1.0_iphoneos-arm.deb
+Size: 5100
+MD5sum: 5320b5203513a8589416a513ec3ee2f9
+SHA256: 5d9f0868be9716d2e0cb83084d3394eb345703837f2cddfa636ebbfb7e4b5f62
+
 Package: com.4nni3.twitterconfirmfavorite
 Name: TwitterConfirmFavorite
 Depends: mobilesubstrate
