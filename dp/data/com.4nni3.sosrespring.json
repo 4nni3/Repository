@@ -3,14 +3,19 @@
   "id": "com.4nni3.sosrespring",
   "author": "4nni3",
   "section": "Tweaks",
-  "description": "Press volume button **QUICKLY** in the order of up, up, up, down, down, down, up, up, and up to Respring.\nUseful when the screen becomes inoperable.\n•••---•••",
-  "support_min": 11,
+  "description": "Press volume button QUICKLY in the order of up, up, up, down, down, down, up, up, and up to Respring.\nUseful when the screen becomes inoperable.\n•••---•••",
+  "support_min": 12,
   "support_max": 13.3,
   "changelog": [
     {
       "version": "1.0",
       "date": "2019-12-13",
       "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "2019-12-15",
+      "description": "change timeout to 500ms from 400ms."
     }
   ],
   "screenshots": [],
