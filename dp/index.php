@@ -27,14 +27,14 @@ function toFixed1($num){
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
-  <title>dp</title>
+  <title><?php echo $info['name']; ?></title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="https://repo.4nni3.com/dp/style.css" />
   <link rel="stylesheet" type="text/css" href="https://repo.4nni3.com/dp/form.css" />
 </head>
-<body ontouchstart="">
+<body>
   <div class="container">
 
     <?php if ($info['info']!=null): ?>

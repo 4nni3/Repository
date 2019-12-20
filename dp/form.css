@@ -20,14 +20,14 @@
   font-size: 0;
 }
 
-#works, #broken{
+#works, #broken {
   text-align: center;
   display: inline-block;
   color: #fff;
   font-size: 32px;
   width: 50%;
-  background:#f66;
+  background: #e74c3c;
 }
-#works{
-  background:#6f6;
+#works {
+  background: #27ae60;
 }
