@@ -16,6 +16,12 @@
          "hideShadow":false
       },
       {  
+         "url":"https://i.imgur.com/2reQkAK.png",
+         "title":"SOSRespring",
+         "package":"com.4nni3.sosrespring",
+         "hideShadow":true
+      },
+      {  
          "url":"https://i.imgur.com/0ehWsn4.png",
          "title":"LINER",
          "package":"com.4nni3.liner",
