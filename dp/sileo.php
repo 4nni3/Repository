@@ -166,7 +166,7 @@ if (isset($info['support_min'])) {
     "title"=>"Support",
     "text"=>'iOS '
       .toFixed1($info['support_min'])
-      .' ~ '
+      .' - '
       .toFixed1($info['support_max'])
   ];
 }

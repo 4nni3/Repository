@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
 
+$ip = $_SERVER['REMOTE_ADDR'];
+
 $package = $_GET['p'];
 $info = json_decode(file_get_contents('data/'.$package.'.json'), true);
 $agent = strtolower(isset($_SERVER['HTTP_USER_AGENT'])?$_SERVER['HTTP_USER_AGENT']:"");
@@ -99,7 +101,7 @@ function toFixed1($num){
 -->
 
       <?php if($campatible!=-1): ?>
-      <div><p class="k">Support</p><span id="support"><?php echo 'iOS '.toFixed1($info['support_min']).' ~ '.toFixed1($info['support_max']); ?></span></div>
+      <div><p class="k">Support</p><span id="support"><?php echo 'iOS '.toFixed1($info['support_min']).' - '.toFixed1($info['support_max']); ?></span></div>
       <?php endif; ?>
     </div>
 
@@ -117,14 +119,14 @@ function submitForm(co){
           "entry.1049998279": "<?php echo end($info['changelog'])['version']; ?>",
           "entry.178135634": "<?php echo $ios; ?>",
           "entry.1748641038": co,
-          "entry.391198144": comment,
+          "entry.391198144": comment+ '\nIP: <?php echo $ip; ?>',
           dataType: "xml"
         }
     );
 
     $('#comment').val('');
     $('.submit').empty();
-    $('.submit').text('Thank you');
+    $('#comment').text('Thank you!');
 }
 
 $('#works').click(function(){ submitForm("動いた"); });

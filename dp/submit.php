@@ -2,6 +2,8 @@
 
 //Sileo用 動作報告
 
+$ip = $_SERVER['REMOTE_ADDR'];
+
 $url = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSchaB-HrJ0HYRuKROVKjkQjVAlNO6bSo8AmHikZz-2_MKXkvw/formResponse";
 
 $p = $_GET['p'];
@@ -20,7 +22,7 @@ $dat =[
     'entry.1049998279'=>$pv,
     'entry.178135634'=>$ios,
     'entry.1748641038'=>$c,
-    'entry.391198144'=>'From Sileo'
+    'entry.391198144'=>"From Sileo\nIP: ".$ip
 ];
 
 $ch = curl_init();
