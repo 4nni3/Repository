@@ -414,6 +414,23 @@ Size: 5380
 MD5sum: 44ee73ee775b5af25069845eeb16ed36
 SHA256: a7897cb09787964d7a7907f56480f85276f25cc8ed40500248cffc26a554295c
 
+Package: com.4nni3.launchgyao
+Name: LaunchGYAO
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Bypass GYAO's jb detection
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.0
+Installed-Size: 136
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.launchgyao&v=1.0
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.launchgyao&v=1.0
+Filename: debs/com.4nni3.launchgyao_1.0_iphoneos-arm.deb
+Size: 3650
+MD5sum: 73f04ac460282afc5ac2c4bb0e131835
+SHA256: c69a6ea6f8c888d990bc23dc0f994bf6e197ae06401d0956d47f66f00b2e8318
+
 Package: com.4nni3.launchminhaya
 Name: LaunchMINHAYA
 Depends: mobilesubstrate
