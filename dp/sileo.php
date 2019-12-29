@@ -110,21 +110,14 @@ $tab1['views'][] = [
 // 動作報告
 $tab1['views'][] = [
   "class"=>"DepictionHeaderView",
-  "title"=>"Work?"
+  "title"=>"Works? Broken?"
 ];
 
 $tab1['views'][] = [
   "class"=>"DepictionButtonView",
-  "text"=>"Works",
-  "action"=>"https://nni43-repo.herokuapp.com/dp/submit.php?p=".$package."&v=".$version."&c=1"
+  "text"=>"Report!",
+  "action"=>"https://4nni3.com/report/?p=".$package."&v=".$version
 ];
-
-$tab1['views'][] = [
-  "class"=>"DepictionButtonView",
-  "text"=>"Broken",
-  "action"=>"https://nni43-repo.herokuapp.com/dp/submit.php?p=".$package."&v=".$version."&c=0"
-];
-
 
 // パッケージ情報
 $tab1['views'][] = [

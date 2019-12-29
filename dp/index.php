@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <?php
 
-$ip = $_SERVER['REMOTE_ADDR'];
-
 $package = $_GET['p'];
 $info = json_decode(file_get_contents('data/'.$package.'.json'), true);
+$version = end($info['changelog'])['version'];
+
 $agent = strtolower(isset($_SERVER['HTTP_USER_AGENT'])?$_SERVER['HTTP_USER_AGENT']:"");
 $ios = 0;
 if(preg_match('/ip(hone|od|ad)/', $agent)){
   preg_match('/os (.+) like/', $agent,  $matches);
   $ios = floatval(str_replace('_', '.', $matches[1]));
 }
-if($info['support_min']==null||$info['support_max']==null){
+
+if ($info['support_min']==null||$info['support_max']==null){
   $compatible = -1;
-}else{
+} else {
   $compatible = ($info['support_min']<=$ios&&$ios<=$info['support_max'])?1:0;
 }
+
 function toFixed1($num){
   $str = strval($num);
   if(strpos($str, ".")===false){
@@ -26,15 +28,106 @@ function toFixed1($num){
 ?>
 <html>
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
   <title><?php echo $info['name']; ?></title>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <style>
 
-  <link rel="stylesheet" type="text/css" href="https://repo.4nni3.com/dp/style.css" />
-  <link rel="stylesheet" type="text/css" href="https://repo.4nni3.com/dp/form.css" />
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  vertical-align: middle;
+  -webkit-appearance:none;
+}
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+body {
+  width: 100vw;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 560px;
+  width: 100%;
+}
+
+.container>div {
+  width:100%;
+  background: #f5f5f5;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: 0.5px 0;
+  border-color: #888888;
+}
+
+.warning {
+  color: #f1c40f;
+  font-weight: bold;
+  text-align: center;
+}
+
+.compatible {
+  text-align: center;
+  color: #fff;
+  background: #e74c3c !important;
+}
+
+.compatible.ok{
+  background: #27ae60 !important;
+}
+
+.screenshots {
+  overflow: scroll;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+.screenshots>img {
+  width: 240px;
+  display: inline-block;
+  margin: 16px;
+}
+
+.description {
+  white-space:pre-wrap;
+}
+
+.info>div {
+  margin: 8px 0;
+  text-align: right;
+  position: relative;
+  border-bottom: #888888 solid 0.5px;
+}
+
+.lbl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #555555;
+}
+
+.log {
+  margin: 16px 0;
+}
+.log>p:first-child {
+  font-weight: bold;
+}
+.log>p:last-child {
+  margin-left: 16px;
+}
+
+  </style>
+
 </head>
 <body>
   <div class="container">
@@ -60,17 +153,11 @@ function toFixed1($num){
     <div class="description"><?php echo $info['description']; ?></div>
 
     <div>
-      <div class="form">
-        <textarea id="comment" placeholder="Message"></textarea>
-        <div class="submit">
-          <div id="works">Works</div>
-          <div id="broken">Broken</div>
-        </div>
-      </div>
+      <div class="btn"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report!</div>
     </div>
 
     <div>
-      Bug reports to my Twitter or above form. <a href="https://twitter.com/4nni3_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @4nni3_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      Bug reports to my Twitter or above link. <a href="https://twitter.com/4nni3_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @4nni3_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
     <div>
@@ -88,51 +175,25 @@ function toFixed1($num){
 
     <div class="info">
 
-<!--
-      <div><p class="k">PackageID</p><span id="packageid"><?php echo $package; ?></span></div>
--->
+      <div><p class="ldl">PackageID</p><span><?php echo $package; ?></span></div>
 
-      <div><p class="k">Version</p><span id="version"><?php echo end($info['changelog'])['version']; ?></span></div>
 
-<!--
-      <div><p class="k">Author</p><span id="author"><?php echo $info['author']; ?></span></div>
+      <div><p class="lbl">Version</p><span><?php echo $version; ?></span></div>
 
-      <div><p class="k">Section</p><span id="section"><?php echo $info['section']; ?></span></div>
--->
+
+      <div><p class="lbl">Author</p><span><?php echo $info['author']; ?></span></div>
+
+      <div><p class="lbl">Section</p><span><?php echo $info['section']; ?></span></div>
+
 
       <?php if($campatible!=-1): ?>
-      <div><p class="k">Support</p><span id="support"><?php echo 'iOS '.toFixed1($info['support_min']).' - '.toFixed1($info['support_max']); ?></span></div>
+      <div><p class="lbl">Support</p><span id="support"><?php echo 'iOS '.toFixed1($info['support_min']).' - '.toFixed1($info['support_max']); ?></span></div>
       <?php endif; ?>
+
     </div>
 
   </div><!-- .container -->
 
-  <script>
 
-function submitForm(co){
-    var comment = $('#comment').val();
-
-    $.post(
-        "https://docs.google.com/forms/u/1/d/e/1FAIpQLSchaB-HrJ0HYRuKROVKjkQjVAlNO6bSo8AmHikZz-2_MKXkvw/formResponse",
-        {
-          "entry.390043528": "<?php echo $package; ?>",
-          "entry.1049998279": "<?php echo end($info['changelog'])['version']; ?>",
-          "entry.178135634": "<?php echo $ios; ?>",
-          "entry.1748641038": co,
-          "entry.391198144": comment+ '\nIP: <?php echo $ip; ?>',
-          dataType: "xml"
-        }
-    );
-
-    $('#comment').val('');
-    $('.submit').empty();
-    $('#comment').text('Thank you!');
-}
-
-$('#works').click(function(){ submitForm("動いた"); });
-
-$('#broken').click(function(){ submitForm("動かない"); });
-
-  </script>
 </body>
 </html>
