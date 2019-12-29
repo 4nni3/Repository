@@ -99,10 +99,12 @@ body {
 }
 
 .description {
-  white-space:pre-wrap;
+  font-size: 12px;
+  white-space: pre-wrap;
 }
 
 .info>div {
+  font-size: 12px;
   margin: 8px 0;
   text-align: right;
   position: relative;
@@ -133,6 +135,9 @@ body {
   border-radius: 8px;
   width: 100%;
   font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  box-shadow: #e1b400 0 0 4px;
 }
 
 .btn>a {
@@ -170,7 +175,8 @@ body {
     <div class="description"><?php echo $info['description']; ?></div>
 
     <div>
-      <div class="btn"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report!</div>
+      <h3>Works? Broken?</h3>
+      <div class="btn"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report</div>
     </div>
 
     <div>
