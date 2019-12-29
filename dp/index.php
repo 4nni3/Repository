@@ -15,7 +15,7 @@ if(preg_match('/ip(hone|od|ad)/', $agent)){
 if ($info['support_min']==null||$info['support_max']==null){
   $compatible = -1;
 } else {
-  $compatible = ($info['support_min']<=$ios&&$ios<=$info['support_max'])?1:0;
+  $compatible = ($info['support_min']<=$ios&&$ios<=$info['support_max']) ? 1 : 0;
 }
 
 function toFixed1($num){
@@ -61,8 +61,8 @@ body {
 .container>div {
   width:100%;
   background: #f5f5f5;
-  margin: 10px 0;
-  padding: 10px 20px;
+  margin: 8px 0;
+  padding: 8px 16px;
   border-style: solid;
   border-width: 0.5px 0;
   border-color: #888888;
@@ -93,7 +93,7 @@ body {
 }
 
 .screenshots>img {
-  width: 240px;
+  width: 160px;
   display: inline-block;
   margin: 16px;
 }
@@ -126,19 +126,36 @@ body {
   margin-left: 16px;
 }
 
+.btn {
+  position: relative;
+  color: #fff;
+  background: #f1c40f;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.btn>a {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
   </style>
 
 </head>
 <body>
   <div class="container">
 
-    <?php if ($info['info']!=null): ?>
+    <?php if ($info['info'] != null): ?>
     <div class="warning"><?php echo $info['info']; ?></div>
     <?php endif; ?>
 
-    <?php if ($compatible==1): ?>
+    <?php if ($compatible == 1): ?>
     <div class="compatible ok">Compatible with iOS<?php echo toFixed1($ios); ?></div>
-    <?php elseif ($compatible==0): ?>
+    <?php elseif ($compatible == 0): ?>
     <div class="compatible">Not compatible with iOS<?php echo toFixed1($ios); ?></div>
     <?php endif; ?>
 
@@ -175,7 +192,7 @@ body {
 
     <div class="info">
 
-      <div><p class="ldl">PackageID</p><span><?php echo $package; ?></span></div>
+      <div><p class="lbl">PackageID</p><span><?php echo $package; ?></span></div>
 
 
       <div><p class="lbl">Version</p><span><?php echo $version; ?></span></div>
@@ -186,7 +203,7 @@ body {
       <div><p class="lbl">Section</p><span><?php echo $info['section']; ?></span></div>
 
 
-      <?php if($campatible!=-1): ?>
+      <?php if ($compatible != -1): ?>
       <div><p class="lbl">Support</p><span id="support"><?php echo 'iOS '.toFixed1($info['support_min']).' - '.toFixed1($info['support_max']); ?></span></div>
       <?php endif; ?>
 
