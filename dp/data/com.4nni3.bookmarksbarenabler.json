@@ -1,0 +1,25 @@
+{
+  "name": "BookmarksBarEnabler",
+  "id": "com.4nni3.bookmarksbarenabler",
+  "author": "4nni3",
+  "section": "Tweaks",
+  "description": "Enables Bookmarks Bar on Safari.",
+  "support_min": 13.3,
+  "support_max": 12.0,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2020-01-01",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.bookmarksbarenabler_1.jpg",
+    "com.4nni3.bookmarksbarenabler_2.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null,
+  "app": null
+}
