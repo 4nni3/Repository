@@ -69,7 +69,6 @@ $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
 
-
 // 広告
 /*
 $tab1['views'][] = [
@@ -85,7 +84,9 @@ $tab1['views'][] = [
 // リポート
 $tab1['views'][] = [
   "class"=>"DepictionSubheaderView",
-  "title"=>"Works? Broken?"
+  "title"=>"Works? Broken?",
+  "useBoldText"=>true,
+  "useBottomMargin"=>false
 ];
 
 $tab1['views'][] = [
@@ -96,20 +97,27 @@ $tab1['views'][] = [
 ];
 
 $tab1['views'][] = [
-  "class"=>"DepictionSeparatorView"
-];
-
-// 私の宣伝
-$tab1['views'][] = [
   "class"=>"DepictionTableButtonView",
-  "title"=>"Twitter @4nni3_",
+  "title"=>"Twitter: @4nni3_",
   "action"=>"https://twitter.com/4nni3_"
 ];
 
 $tab1['views'][] = [
+  "class"=>"DepictionSeparatorView"
+];
+
+// 寄付のお願い
+$tab1['views'][] = [
+  "class"=>"DepictionSubheaderView",
+  "title"=>"if you like, please donate.",
+  "useBoldText"=>false,
+  "useBottomMargin"=>false
+];
+$tab1['views'][] = [
   "class"=>"DepictionButtonView",
   "title"=>"Donate",
-  "action"=>"https://4nni3.com/donation/"
+  "action"=>"https://4nni3.com/donation/",
+  "tintColor"=>"#009688"
 ];
 
 $tab1['views'][] = [
@@ -121,7 +129,6 @@ $tab1['views'][] = [
   "class"=>"DepictionHeaderView",
   "title"=>"Information"
 ];
-
 
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",

@@ -45,7 +45,7 @@ function toFixed1($num){
 html {
   font-size: 16px;
   font-family: sans-serif;
-  color: #333;
+  color: #444;
 }
 
 body {
@@ -99,7 +99,6 @@ body {
 }
 
 .description {
-  font-size: 12px;
   white-space: pre-wrap;
 }
 
@@ -183,19 +182,18 @@ body {
 
     <div class="description">
       <h3>Description</h3>
-<?php echo $info['description']; ?></div>
+      <?php echo $info['description']; ?>
+    </div>
 
     <div>
       <h3>Works? Broken?</h3>
       <div class="btn report"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report</div>
+      <p><a href="https://twitter.com/4nni3_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @4nni3_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
     </div>
 
-    <div>
-      Bug reports to my Twitter or above link. <a href="https://twitter.com/4nni3_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @4nni3_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
 
     <div>
-      <h3>if you like, please donate.</h3>
+      <p>if you like, please donate.</p>
       <div class="btn donate"><a href="https://4nni3.com/donation/" target="_blank"></a>Donate</div>
     </div>
 
