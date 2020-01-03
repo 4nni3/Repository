@@ -92,7 +92,7 @@ body {
   overflow-scrolling: touch;
 }
 
-.screenshots>img {
+.screenshots>a>img {
   width: 160px;
   display: inline-block;
   margin: 16px;
