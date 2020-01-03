@@ -48,10 +48,8 @@ if(count($info['screenshots'])){
       "accessibilityText"=>"Screenshot"
     ];
   }
-
   $tab1['views'][] = $sss;
 }
-
 $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
@@ -59,15 +57,19 @@ $tab1['views'][] = [
 
 // 説明文
 $tab1['views'][] = [
+  "class"=>"DepictionHeaderView",
+  "title"=>"Description"
+];
+$tab1['views'][] = [
   "class"=>"DepictionMarkdownView",
   "markdown"=>$info['description'],
   "useSpacing"=>true,
   "useRawFormat"=>true
 ];
-
 $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
+
 
 // 広告
 /*
@@ -83,16 +85,14 @@ $tab1['views'][] = [
 
 // リポート
 $tab1['views'][] = [
-  "class"=>"DepictionSubheaderView",
-  "title"=>"Works? Broken?",
-  "useBoldText"=>true,
-  "useBottomMargin"=>false
+  "class"=>"DepictionHeaderView",
+  "title"=>"Works?"
 ];
 
 $tab1['views'][] = [
   "class"=>"DepictionButtonView",
   "text"=>"Report",
-  "action"=>"https://4nni3.com/report/?p=".$package."&v=".$version,
+  "action"=>"https://4nni3.com/report/?p=" . $package . "&v=" . $version,
   "tintColor"=>"#FBC02D"
 ];
 
@@ -113,9 +113,10 @@ $tab1['views'][] = [
   "useBoldText"=>false,
   "useBottomMargin"=>false
 ];
+
 $tab1['views'][] = [
   "class"=>"DepictionButtonView",
-  "title"=>"Donate",
+  "text"=>"Donate",
   "action"=>"https://4nni3.com/donation/",
   "tintColor"=>"#009688"
 ];
@@ -135,7 +136,6 @@ $tab1['views'][] = [
   "title"=>"ID",
   "text"=>$package
 ];
-
 
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
@@ -185,7 +185,7 @@ foreach($info['changelog'] as $log){
 
 
 // ヘッダ画像の設定
-$header = isset($info["header_img"])?$info["header_img"]:"https://i.imgur.com/WjBxxH3.png";
+$header = isset($info["header_img"]) ? $info["header_img"] : "https://i.imgur.com/WjBxxH3.png";
 
 // JSON表示!
 header("Access-Control-Allow-Origin: *");

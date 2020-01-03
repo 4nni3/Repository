@@ -99,15 +99,13 @@ body {
 }
 
 .description {
-  white-space: pre-wrap;
 }
 
 .info>div {
   font-size: 12px;
-  margin: 8px 0;
+  margin: 12px 0;
   text-align: right;
   position: relative;
-  border-bottom: #888888 solid 0.5px;
 }
 
 .lbl {
@@ -136,6 +134,7 @@ body {
   font-size: 20px;
   text-align: center;
   padding: 8px;
+  margin: 4px;
 }
 
 .btn>a {
@@ -175,18 +174,18 @@ body {
     <?php if (count($info['screenshots'])): ?>
     <div class="screenshots">
       <?php foreach ($info['screenshots'] as $ss): ?>
-      <img src="https://repo.4nni3.com/dp/ss/<?php echo $ss; ?>">
+      <a href="https://repo.4nni3.com/dp/ss/<?php echo $ss; ?>" href="_blank"><img src="https://repo.4nni3.com/dp/ss/<?php echo $ss; ?>"></a>
       <?php endforeach;  ?>
     </div>
     <?php endif; ?>
 
     <div class="description">
-      <h3>Description</h3>
-      <?php echo $info['description']; ?>
+      <h3> Description </h3>
+      <p><?php echo $info['description']; ?></p>
     </div>
 
     <div>
-      <h3>Works? Broken?</h3>
+      <h3>Works?</h3>
       <div class="btn report"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report</div>
       <p><a href="https://twitter.com/4nni3_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @4nni3_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
     </div>
@@ -194,10 +193,12 @@ body {
 
     <div>
       <p>if you like, please donate.</p>
-      <div class="btn donate"><a href="https://4nni3.com/donation/" target="_blank"></a>Donate</div>
+      <div class="btn donate"><a href="https://4nni3.com/donation/" target="_blank"></a> Donate </div>
     </div>
 
     <div id="changelog">
+      <h3>Changelog</h3>
+
       <?php foreach($info['changelog'] as $log): ?>
       <div class="log">
         <p><?php echo $log['version'].' '.$log['date']; ?></p>
@@ -207,6 +208,7 @@ body {
     </div>
 
     <div class="info">
+      <h3>Information</h3>
 
       <div><p class="lbl">PackageID</p><span><?php echo $package; ?></span></div>
 
