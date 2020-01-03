@@ -82,14 +82,24 @@ $tab1['views'][] = [
 ];
 */
 
-
-// 私の宣伝
+// リポート
 $tab1['views'][] = [
-  "class"=>"DepictionTableButtonView",
-  "title"=>"4nni3.com",
-  "action"=>"https://4nni3.com/"
+  "class"=>"DepictionSubheaderView",
+  "title"=>"Works? Broken?"
 ];
 
+$tab1['views'][] = [
+  "class"=>"DepictionButtonView",
+  "text"=>"Report",
+  "action"=>"https://4nni3.com/report/?p=".$package."&v=".$version,
+  "tintColor"=>"#FBC02D"
+];
+
+$tab1['views'][] = [
+  "class"=>"DepictionSeparatorView"
+];
+
+// 私の宣伝
 $tab1['views'][] = [
   "class"=>"DepictionTableButtonView",
   "title"=>"Twitter @4nni3_",
@@ -97,7 +107,7 @@ $tab1['views'][] = [
 ];
 
 $tab1['views'][] = [
-  "class"=>"DepictionTableButtonView",
+  "class"=>"DepictionButtonView",
   "title"=>"Donate",
   "action"=>"https://4nni3.com/donation/"
 ];
@@ -106,32 +116,19 @@ $tab1['views'][] = [
   "class"=>"DepictionSeparatorView"
 ];
 
-
-// 動作報告
-$tab1['views'][] = [
-  "class"=>"DepictionHeaderView",
-  "title"=>"Works? Broken?"
-];
-
-$tab1['views'][] = [
-  "class"=>"DepictionButtonView",
-  "text"=>"Report!",
-  "action"=>"https://4nni3.com/report/?p=".$package."&v=".$version
-];
-
 // パッケージ情報
 $tab1['views'][] = [
   "class"=>"DepictionHeaderView",
   "title"=>"Information"
 ];
 
-/*
+
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
-  "title"=>"PackageID",
+  "title"=>"ID",
   "text"=>$package
 ];
-*/
+
 
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
@@ -139,19 +136,11 @@ $tab1['views'][] = [
   "text"=>end($info['changelog'])['version']
 ];
 
-/*
 $tab1['views'][] = [
   "class"=>"DepictionTableTextView",
-  "title"=>"Developer",
+  "title"=>"Dev",
   "text"=>$info['author']
 ];
-
-$tab1['views'][] = [
-  "class"=>"DepictionTableTextView",
-  "title"=>"Section",
-  "text"=>$info['section']
-];
-*/
 
 if (isset($info['support_min'])) {
   $tab1['views'][] = [

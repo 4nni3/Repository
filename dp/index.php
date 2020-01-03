@@ -137,7 +137,6 @@ body {
   font-size: 20px;
   text-align: center;
   padding: 8px;
-  box-shadow: #e1b400 0 0 4px;
 }
 
 .btn>a {
@@ -147,6 +146,16 @@ body {
   width: 100%;
   height: 100%;
   z-index: 99;
+}
+
+.report {
+  box-shadow: #e1b400 0 0 4px;
+  background: #f1c40f;
+}
+
+.donate {
+  box-shadow: #009688 0 0 4px;
+  background: #009688;
 }
   </style>
 
@@ -172,11 +181,13 @@ body {
     </div>
     <?php endif; ?>
 
-    <div class="description"><?php echo $info['description']; ?></div>
+    <div class="description">
+      <h3>Description</h3>
+<?php echo $info['description']; ?></div>
 
     <div>
       <h3>Works? Broken?</h3>
-      <div class="btn"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report</div>
+      <div class="btn report"><a href="https://4nni3.com/report/?p=<?php echo $package; ?>&v=<?php echo $version; ?>" target="_blank"></a>Report</div>
     </div>
 
     <div>
@@ -184,7 +195,8 @@ body {
     </div>
 
     <div>
-      <a href="https://4nni3.com/donation/" target="_blank">Please Donate.</a>
+      <h3>if you like, please donate.</h3>
+      <div class="btn donate"><a href="https://4nni3.com/donation/" target="_blank"></a>Donate</div>
     </div>
 
     <div id="changelog">
