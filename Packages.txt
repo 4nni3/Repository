@@ -100,6 +100,23 @@ Size: 7918
 MD5sum: 8288cd48e28176ff6e687c697a24a639
 SHA256: a741607f476b570920bd52c10458808af2a0fdee15f7ff9597a74f7a21f6979f
 
+Package: com.4nni3.confirmemailaddress
+Name: ConfirmEmailAddress
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Confirm sender address when sending email.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.1
+Installed-Size: 144
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.confirmemailaddress&v=1.1
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.confirmemailaddress&v=1.1
+Filename: debs/com.4nni3.confirmemailaddress_1.1_iphoneos-arm.deb
+Size: 4602
+MD5sum: 28fe6a2852d01c922897c325d9f933cf
+SHA256: eddb73bfe63b680403c80b6ebd86fb8ab8755df52d7041a96a33877cfaa1d537
+
 Package: com.4nni3.coolcc
 Name: CoolCC (Beta)
 Depends: mobilesubstrate, preferenceloader

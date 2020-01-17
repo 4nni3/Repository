@@ -3,14 +3,19 @@
   "id": "com.4nni3.confirmemailaddress",
   "author": "4nni3",
   "section": "Tweaks",
-  "description": "メールアプリでメールを送信する時に差出人(自分の)メールアドレスの確認を行います。サブのメールアドレスを持っている方などは誤送信抑制にご使用下さい。",
+  "description": "Confirm sender address when sending email.",
   "support_min": 11,
-  "support_max": 12.2,
+  "support_max": 13.3,
   "changelog": [
     {
       "version": "1.0",
       "date": "-",
       "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "2020-01-17",
+      "description": "Add English localization."
     }
   ],
   "screenshots": [
