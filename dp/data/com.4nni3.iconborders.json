@@ -1,0 +1,28 @@
+{
+  "name": "IconBorders",
+  "id": "com.4nni3.iconborders",
+  "author": "4nni3",
+  "section": "Tweaks",
+  "description": "Add border around icons on homescreen.",
+  "support_min": 13,
+  "support_max": 13.3,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2020-02-21",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.iconborders_1.png",
+    "com.4nni3.iconborders_2.png",
+    "com.4nni3.iconborders_3.png",
+    "com.4nni3.iconborders_4.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "header_img": null,
+  "info": null,
+  "app": null
+}
