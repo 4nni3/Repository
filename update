@@ -57,14 +57,15 @@ bzip2 Packages
 
 
 cp Packages.txt secret/Packages
-touch secret/Packages
-for deb in secret/hono/*.deb; do
+cd secret
+for deb in hono/*.deb; do
   echo "$deb"
-  getCtrl "$deb" >> secret/Packages
+  getCtrl "$deb" >> Packages
 done
-cp secret/Packages secret/Packages.txt
-bzip2 secret/Packages
+cp Packages Packages.txt
+bzip2 Packages
 
+cd ..
 
 git add .
 git commit -m "update $(date +%Y%m%d%H%M)"
