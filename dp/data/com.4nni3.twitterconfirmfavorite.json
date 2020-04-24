@@ -4,13 +4,18 @@
   "author": "4nni3",
   "section": "Tweaks",
   "description": "Twitterアプリ内でいいねボタンを押した時に確認アラートを表示します。\n誤作動による間違ったいいねを防止します。",
-  "support_min": 11,
-  "support_max": 12.2,
+  "support_min": null,
+  "support_max": null,
   "changelog": [
     {
       "version": "1.0",
       "date": "-",
       "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "2020-4-24",
+      "description": "support latest twitter & change alert style"
     }
   ],
   "screenshots": [

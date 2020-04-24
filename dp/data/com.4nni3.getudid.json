@@ -5,12 +5,17 @@
   "section": "Tweaks",
   "description": "ターミナルなどでコマンド「getudid」を実行すると、UDID(デバイス固有の識別コード)を表示します。\n-cを指定するとUDIDをクリップボードにコピーします。\nUDIDは重要な情報ですので大切に扱って下さい",
   "support_min": 11,
-  "support_max": 13.2,
+  "support_max": 13.4,
   "changelog": [
     {
       "version": "1.0",
       "date": "-",
       "description": "First release."
+    },
+    {
+      "version": "1.1",
+      "date": "2020-4-24",
+      "description": "For arm64e"
     }
   ],
   "screenshots": [
