@@ -414,6 +414,22 @@ Size: 3096
 MD5sum: 23e7df39a69defc8fc54f49992dba048
 SHA256: 55b513b328e6217e46682903e81a437d39cd32b79c330730410b65c168ebbb33
 
+Package: com.4nni3.getudid
+Name: GetUDID
+Architecture: iphoneos-arm
+Description: Commmand displaying UDID
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: System
+Version: 1.2
+Installed-Size: 132
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.getudid&v=1.2
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.getudid&v=1.2
+Filename: debs/com.4nni3.getudid_1.2_iphoneos-arm.deb
+Size: 3012
+MD5sum: 9f7c8bd137f44512a9ca04f303cf4864
+SHA256: 1160dafcdd6d3f0eb08897ada980234edca3c56337efd549f9b710a5a6c800a0
+
 Package: com.4nni3.hidecarrier
 Name: HideCarrier
 Depends: mobilesubstrate
@@ -1171,6 +1187,23 @@ Size: 3794
 MD5sum: fca2982ba90f95b2f9ee52ce3861bb8a
 SHA256: 56fc67da1426eac750ad1ab1cd62dfbb14c1a93c21977aa61dac93503461d3d8
 
+Package: com.4nni3.twitterconfirmfavorite
+Name: TwitterConfirmFavorite
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Twitter Like Confirm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.2
+Installed-Size: 144
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.twitterconfirmfavorite&v=1.2
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.twitterconfirmfavorite&v=1.2
+Filename: debs/com.4nni3.twitterconfirmfavorite_1.2_iphoneos-arm.deb
+Size: 3796
+MD5sum: 050a9a1025a0b90940c4dfb3dccffd67
+SHA256: 6436df3159c63661a6a2f3398a96f95aaf707f99f47f84d9fdf971b08138f4f8
+
 Package: com.4nni3.twitterconfirmfollow
 Name: TwitterConfirmFollow
 Depends: mobilesubstrate
@@ -1187,6 +1220,23 @@ Filename: debs/com.4nni3.twitterconfirmfollow_1.0_iphoneos-arm.deb
 Size: 8280
 MD5sum: d9df14cbb4cc994d4ead58a389f5b5d1
 SHA256: 887d7d3dfccb225a8126af8b667c7b899bdc18386e189497f9fef7d9c4300f27
+
+Package: com.4nni3.twitterconfirmfollow
+Name: TwitterConfirmFollow
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Confirm Twitter follow.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.1
+Installed-Size: 144
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.twitterconfirmfollow&v=1.1
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.twitterconfirmfollow&v=1.1
+Filename: debs/com.4nni3.twitterconfirmfollow_1.1_iphoneos-arm.deb
+Size: 4468
+MD5sum: 241bf36f9eb165792770ca89a6bc40a9
+SHA256: 74a298d4595bddf05a26dd1bdad7576d93d159ed11cc90c6ac8c79d5a6bb272b
 
 Package: com.4nni3.twitteruraka
 Name: TwitterUraka

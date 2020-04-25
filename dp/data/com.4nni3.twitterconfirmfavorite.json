@@ -16,6 +16,11 @@
       "version": "1.1",
       "date": "2020-4-24",
       "description": "support latest twitter & change alert style"
+    },
+    {
+      "version": "1.2",
+      "date": "2020-4-25",
+      "description": "support japanese & english"
     }
   ],
   "screenshots": [

@@ -16,6 +16,12 @@
       "version": "1.1",
       "date": "2020-4-24",
       "description": "For arm64e"
+    },
+
+    {
+      "version": "1.2",
+      "date": "2020-4-25",
+      "description": "fix For arm64e"
     }
   ],
   "screenshots": [
