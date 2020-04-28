@@ -1013,6 +1013,23 @@ Size: 12378
 MD5sum: 6e71629933a22ec2c82ef4bb182bb5fa
 SHA256: deb3f73c37abf324b3edb93dc383afe5625555892199c7adf4a09b4e8da065c5
 
+Package: com.4nni3.siricommand
+Name: SiriCommand
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: siri <text> Command
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: System
+Version: 1.1
+Installed-Size: 268
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.siricommand&v=1.1
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.siricommand&v=1.1
+Filename: debs/com.4nni3.siricommand_1.1_iphoneos-arm.deb
+Size: 5804
+MD5sum: 1eaba8ff474e81c84797319902a27c9d
+SHA256: 449fd41d12c4b383c0559b3634ac151e4c359f585baacb5881fdd891c3c1a972
+
 Package: com.4nni3.sirifield
 Name: SiriField
 Description: Siriへの命令を入力できるアラートを表示する
