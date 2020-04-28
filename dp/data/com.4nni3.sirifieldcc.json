@@ -3,14 +3,19 @@
   "id": "com.4nni3.sirifieldcc",
   "author": "4nni3",
   "section": "Tweaks",
-  "description": "Siriへの命令を入力できるテキストフィールド付きアラートを表示するコントロールセンターに追加できるモジュール(CCSupport)です。\n設定からコントロールセンターに追加して下さい",
+  "description": "A module (CCSupport) that can be added to the Control Center that displays alerts with text fields that commands to Siri. Add it to the Control Center from the Settings.",
   "support_min": 11,
-  "support_max": 12.4,
+  "support_max": 13.4,
   "changelog": [
     {
       "version": "1.0",
       "date": "-",
       "description": "First release."
+    },
+    {
+      "version": "1.2",
+      "date": "2020-4-28",
+      "description": "support ios 13."
     }
   ],
   "screenshots": [
