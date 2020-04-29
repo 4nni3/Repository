@@ -3,9 +3,9 @@
   "id": "com.4nni3.sirifield",
   "author": "4nni3",
   "section": "Tweaks",
-  "description": "Siriへの命令を入力できるテキストフィールド付きアラートを表示するFlipswitchです\nFlipControlCenterやActivatorから実行して下さい。",
+  "description": "A Flipswitch that can be added to the Control Center that displays alerts with text fields that commands to Siri.",
   "support_min": 11,
-  "support_max": 12.4,
+  "support_max": 13.4,
   "changelog": [
     {
       "version": "1.0",
@@ -16,6 +16,11 @@
       "version": "1.1",
       "date": "-",
       "description": "iOS11に対応"
+    },
+    {
+      "version": "1.1",
+      "date": "2020-4-29",
+      "description": "support ios13"
     }
   ],
   "screenshots": [
