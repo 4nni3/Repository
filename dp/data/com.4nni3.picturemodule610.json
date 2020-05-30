@@ -1,0 +1,24 @@
+{
+  "name": "PictureModule (6 - 10)",
+  "id": "com.4nni3.picturemodule610",
+  "author": "4nni3",
+  "section": "Control Center (Modules)",
+  "description": "Add 5 PictureModules\nFirst, purchase the picturemodule from Packix",
+  "support_min": 12,
+  "support_max": 13.5,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2020-05-30",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "https://i.imgur.com/BBgDhrV.png",
+  "header_img": "https://i.imgur.com/2MOZyZb.png",
+  "info": null,
+  "app": null
+}
