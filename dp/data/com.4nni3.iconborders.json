@@ -11,6 +11,11 @@
       "version": "1.0",
       "date": "2020-02-21",
       "description": "First release."
+    },
+    {
+      "version": "1.2",
+      "date": "2020-06-02",
+      "description": "Fixed a bug that overlaps with the badge."
     }
   ],
   "screenshots": [
