@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "ステータスバーの時計の表示方法を変更して、日付や曜日まで確認できるようにします。",
   "support_min": 11,
-  "support_max": 13.2,
+  "support_max": 13.5,
   "changelog": [
     {
       "version": "1.0",

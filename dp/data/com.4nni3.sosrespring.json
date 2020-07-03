@@ -5,7 +5,7 @@
   "section": "Tweaks",
   "description": "Press volume button QUICKLY in the order of up, up, up, down, down, down, up, up, and up to Respring.\nUseful when the screen becomes inoperable.\n•••---•••",
   "support_min": 12,
-  "support_max": 13.3,
+  "support_max": 13.5,
   "changelog": [
     {
       "version": "1.0",

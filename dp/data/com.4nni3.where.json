@@ -1,0 +1,28 @@
+{
+  "name": "Where",
+  "id": "com.4nni3.where",
+  "author": "4nni3",
+  "section": "Tweaks",
+  "description": "Fake your location.",
+  "support_min": 13,
+  "support_max": 13.5,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2020-07-03",
+      "description": "First release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.where_1.png",
+    "com.4nni3.where_2.png",
+    "com.4nni3.where_3.png",
+    "com.4nni3.where_4.png"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": "https://i.imgur.com/PepGAga.png",
+  "header_img": null,
+  "info": null,
+  "app": null
+}
