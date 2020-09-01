@@ -3,7 +3,7 @@
   "id": "com.4nni3.caffeine",
   "author": "4nni3",
   "section": "Tweaks",
-  "description": "Twitterで設定したワードを含んだツイートをしようとすると、警告のアラートを表示します。",
+  "description": "This is a control center module that temporarily disables the auto-lock.",
   "support_min": null,
   "support_max": null,
   "changelog": [
