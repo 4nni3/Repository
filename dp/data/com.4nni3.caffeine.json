@@ -1,0 +1,25 @@
+{
+  "name": "Caffeine",
+  "id": "com.4nni3.caffeine",
+  "author": "4nni3",
+  "section": "Tweaks",
+  "description": "Twitterで設定したワードを含んだツイートをしようとすると、警告のアラートを表示します。",
+  "support_min": null,
+  "support_max": null,
+  "changelog": [
+    {
+      "version": "1.0~beta1",
+      "date": "2020-9-1",
+      "description": "First beta release."
+    }
+  ],
+  "screenshots": [
+    "com.4nni3.caffeine_1.jpg",
+    "com.4nni3.caffeine_2.jpg"
+  ],
+  "images": [],
+  "youtube": [],
+  "icon": null,
+  "info": null,
+  "app": null
+}
