@@ -5,12 +5,17 @@
   "section": "Control Center (Modules)",
   "description": "Add 5 PictureModules\nFirst, purchase the picturemodule from Packix",
   "support_min": 12,
-  "support_max": 13.5,
+  "support_max": 13.7,
   "changelog": [
     {
       "version": "1.0",
       "date": "2020-05-30",
       "description": "First release."
+    },
+    {
+      "version": "1.2.1",
+      "date": "2020-09-17",
+      "description": "To be able to set up html-based widgets"
     }
   ],
   "screenshots": [
