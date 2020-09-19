@@ -4,13 +4,18 @@
   "author": "4nni3",
   "section": "Tweaks",
   "description": "This is a control center module that temporarily disables the auto-lock.",
-  "support_min": null,
-  "support_max": null,
+  "support_min": 13.0,
+  "support_max": 13.5,
   "changelog": [
     {
       "version": "1.0~beta1",
       "date": "2020-9-1",
       "description": "First beta release."
+    },
+    {
+      "version": "1.0",
+      "date": "2020-9-19",
+      "description": "First release."
     }
   ],
   "screenshots": [
