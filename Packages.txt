@@ -41,13 +41,13 @@ Maintainer: 4nni3 <4nni3.14@gmail.com>
 Author: 4nni3 <4nni3.14@gmail.com>
 Section: Control Center (Modules)
 Version: 1.0
-Installed-Size: 352
+Installed-Size: 336
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.caffeine&v=1.0
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.caffeine&v=1.0
 Filename: debs/com.4nni3.caffeine_1.0_iphoneos-arm.deb
-Size: 26626
-MD5sum: 52bcfabf85b2898c7211174efc3491b0
-SHA256: bde244da8e791bb18852af1394448cbf9528c5bd98bfeff546c2db324178fba9
+Size: 26742
+MD5sum: c4bc92d046372a19f9ac4d80e23af529
+SHA256: c66f5a203e5bed6b773a7ad79e9979949648c8e920c994c72b0dbdfe25031ab8
 
 Package: com.4nni3.caffeine
 Name: Caffeine
@@ -1426,8 +1426,8 @@ Installed-Size: 492
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.where&v=1.2
 SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.where&v=1.2
 Filename: debs/com.4nni3.where_1.2_iphoneos-arm.deb
-Size: 34570
-MD5sum: 4d4e46ee8d7db11d4729ef9225a7d4d7
-SHA256: 3454a0b2fa1dfa38259f4e18bfa21b00d432dc2b1e21acf529392b07ceb16295
+Size: 34532
+MD5sum: 4b11c2e38be01bef60422728d9102f04
+SHA256: 23d3de205763355583538c305bab4bbb288c130122caae26dca1a35809cd3954
 Icon: https://i.imgur.com/PepGAga.png
 
