@@ -40,14 +40,14 @@ Description: Disabled Auto Lock from ControlCenter.
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Author: 4nni3 <4nni3.14@gmail.com>
 Section: Control Center (Modules)
-Version: 1.0-1
+Version: 1.0-2
 Installed-Size: 336
-Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.caffeine&v=1.0-1
-SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.caffeine&v=1.0-1
-Filename: debs/com.4nni3.caffeine_1.0-1_iphoneos-arm.deb
-Size: 26740
-MD5sum: e4be0352d00e1c07a78a11342a92c3b8
-SHA256: b315d19fa7e39105f60da207774fb65e0982704c6c27b85dc55d9e1a76f8f730
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.caffeine&v=1.0-2
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.caffeine&v=1.0-2
+Filename: debs/com.4nni3.caffeine_1.0-2_iphoneos-arm.deb
+Size: 26744
+MD5sum: f6ece06258fa8440098468ccbe22f294
+SHA256: d7a4666cbf42d5c421b88f61e31fb3f56b62d0d85947ecf265e597758c806a83
 
 Package: com.4nni3.caffeine
 Name: Caffeine
@@ -1455,14 +1455,14 @@ Description: Fake your location.
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Author: 4nni3 <4nni3.14@gmail.com>
 Section: Tweaks
-Version: 1.2-1
-Installed-Size: 508
-Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.where&v=1.2-1
-SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.where&v=1.2-1
-Filename: debs/com.4nni3.where_1.2-1_iphoneos-arm.deb
-Size: 35036
-MD5sum: 4dccdfa700ea0fc721f1862cd54e6970
-SHA256: 30509d27a41d68f38f41411cf016af856fd61f82021c505177b61ecbbcf744d2
+Version: 1.2-2
+Installed-Size: 516
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.where&v=1.2-2
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.where&v=1.2-2
+Filename: debs/com.4nni3.where_1.2-2_iphoneos-arm.deb
+Size: 37682
+MD5sum: 8ebf4d3b7544135c60d6f773f486e06c
+SHA256: 81c726a43b89b322faf79e1f5f1320d95f1e0878dd2e3cc69aac5adcbe2a08f9
 Icon: https://i.imgur.com/PepGAga.png
 
 Package: com.4nni3.where
