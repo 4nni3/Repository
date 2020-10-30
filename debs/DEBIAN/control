@@ -1,0 +1,10 @@
+Package: com.4nni3.coolfolder
+Name: CoolFolder
+Depends: mobilesubstrate,org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Description: フォルダをカッコよくする
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 2.5
+Installed-Size: 332

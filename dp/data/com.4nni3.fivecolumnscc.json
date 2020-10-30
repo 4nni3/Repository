@@ -1,0 +1,22 @@
+{
+    "name": "FiveColumnsCC",
+    "id": "com.4nni3.fivecolumnscc",
+    "author": "4nni3",
+    "section": "Tweaks",
+    "description": "Add a fifth column of modules to your Control Center.",
+    "support_min": 11,
+    "support_max": 13.5,
+    "changelog": [{
+        "version": "1.0~beta1",
+        "date": "-",
+        "description": "First release."
+    }],
+    "screenshots": [
+        "com.4nni3.fivecolumnscc_1.png"
+    ],
+    "images": [],
+    "youtube": [],
+    "icon": null,
+    "info": null,
+    "app": null
+}
