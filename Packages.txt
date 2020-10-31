@@ -74,6 +74,23 @@ Description: Disabled Auto Lock from ControlCenter.
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Author: 4nni3 <4nni3.14@gmail.com>
 Section: Control Center (Modules)
+Version: 1.0-5
+Installed-Size: 368
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.caffeine&v=1.0-5
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.caffeine&v=1.0-5
+Filename: debs/com.4nni3.caffeine_1.0-5_iphoneos-arm.deb
+Size: 26542
+MD5sum: c27e5f24b3916b0ab4ed533ef013e685
+SHA256: de254dcec05d145fdf55e0aff8acdf9c997adb701b6795adbdaa3effa1d8160c
+
+Package: com.4nni3.caffeine
+Name: Caffeine
+Depends: mobilesubstrate,com.opa334.ccsupport
+Architecture: iphoneos-arm
+Description: Disabled Auto Lock from ControlCenter.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Control Center (Modules)
 Version: 1.0
 Installed-Size: 336
 Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.caffeine&v=1.0
@@ -447,6 +464,23 @@ Filename: debs/com.4nni3.fivecolumnscc_1.0~beta2_iphoneos-arm.deb
 Size: 5272
 MD5sum: b6b75a75b635ac2fbc97e2eae8b690ef
 SHA256: a5ec764497ea477ea6e2f56d7c9c8b14041cab7b0509f1ca84917a6d280b2343
+
+Package: com.4nni3.fivecolumnscc
+Name: FiveColumnsCC
+Architecture: iphoneos-arm
+Description: Add a fifth column of modules to your control center.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Version: 1.0~beta3
+Installed-Size: 140
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.fivecolumnscc&v=1.0~beta3
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.fivecolumnscc&v=1.0~beta3
+Filename: debs/com.4nni3.fivecolumnscc_1.0~beta3_iphoneos-arm.deb
+Size: 5080
+MD5sum: 18daf6b3ff8223436349da8b4108dcc9
+SHA256: 0aeeac9ce1b19f95fa46aeaae089a1614d54057eadfa5ccf4d6f4c8f265bbad8
 
 Package: com.4nni3.flexdump
 Name: FLEX Dump
@@ -1532,6 +1566,24 @@ Filename: debs/com.4nni3.where_1.2-4_iphoneos-arm.deb
 Size: 47742
 MD5sum: 86c5c348f69e6699a399771382bd6f6b
 SHA256: 691568eb4ca60e57ecdd1763a36eca67144dd5f82109842a4d5b1fa251c699a3
+Icon: https://i.imgur.com/PepGAga.png
+
+Package: com.4nni3.where
+Name: Where
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm
+Description: Fake your location.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1.2-5
+Installed-Size: 560
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.where&v=1.2-5
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.where&v=1.2-5
+Filename: debs/com.4nni3.where_1.2-5_iphoneos-arm.deb
+Size: 45150
+MD5sum: bb7f6a0404450eb2d94799aae9cb859c
+SHA256: a9d767819d13ff93f95c5b5a9bbea50cc2c3c9fbf69166e58f2c484e667e01c8
 Icon: https://i.imgur.com/PepGAga.png
 
 Package: com.4nni3.where
