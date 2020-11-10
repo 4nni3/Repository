@@ -343,6 +343,24 @@ MD5sum: 2389e618cc2d4bbdaad48637ba357f6c
 SHA256: 8c48e8d819aaf4fddb2c7a55a5618ea9732d1bb3e560d9d8ac151f36e66caaaa
 Icon: https://i.imgur.com/YrOjbdc.png
 
+Package: com.4nni3.coolcc
+Name: CoolCC
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm
+Description: Makes ControlCenter cool.
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Author: 4nni3 <4nni3.14@gmail.com>
+Section: Tweaks
+Version: 1:4.0~beta1
+Installed-Size: 424
+Depiction: https://nni43-repo.herokuapp.com/dp/?p=com.4nni3.coolcc&v=1:4.0~beta1
+SileoDepiction: https://nni43-repo.herokuapp.com/dp/sileo.php?p=com.4nni3.coolcc&v=1:4.0~beta1
+Filename: debs/com.4nni3.coolcc_4.0~beta1_iphoneos-arm.deb
+Size: 45724
+MD5sum: 85861ad6ad5e86ad1a3322b6bccee270
+SHA256: b8ae9ca226a50adab2add217859a88bd6b8ec895dbd39f1bb2a2c488655608b6
+Icon: https://i.imgur.com/YrOjbdc.png
+
 Package: com.4nni3.coolfolder
 Name: CoolFolder
 Depends: mobilesubstrate,org.thebigboss.libcolorpicker

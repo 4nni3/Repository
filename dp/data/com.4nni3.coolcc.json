@@ -1,57 +1,61 @@
 {
-  "name": "CoolCC",
-  "id": "com.4nni3.coolcc",
-  "author": "4nni3",
-  "section": "Tweaks",
-  "description": "コントロールセンターをカッコよくします！\n \nCompiled by @ichitaso! ",
-  "support_min": 11,
-  "support_max": 13.2,
-  "changelog": [
-    {
-      "version": "3.2~beta1",
-      "date": "2019-03-31",
-      "description": "First release."
-    },
-    {
-      "version": "3.2~beta2",
-      "date": "2019-07-06",
-      "description": "For arm64e. Thanks @ichitaso"
-    },
-    {
-      "version": "3.3~beta4",
-      "date": "2019-08-25",
-      "description": "Support iOS12.4"
-    },
-    {
-      "version": "3.4~beta1",
-      "date": "2019-11-16",
-      "description": "Support ios 13"
-    },
-    {
-      "version": "3.4~beta2",
-      "date": "2019-11-17",
-      "description": "add a option effecting volume hud"
-    },
-    {
-      "version": "3.4~beta3",
-      "date": "2019-11-17",
-      "description": "fix for ios12.4"
-    },
-    {
-      "version": "3.4~beta4",
-      "date": "2019-11-18",
-      "description": "fix color setting bug"
-    }
-  ],
-  "screenshots": [
-    "com.4nni3.coolcc_1.png",
-    "com.4nni3.coolcc_2.png",
-    "com.4nni3.coolcc_3.png"
-  ],
-  "header_img": "https://i.imgur.com/D7ykEhL.png",
-  "images": [],
-  "youtube": [],
-  "icon": "https://i.imgur.com/YrOjbdc.png",
-  "info": "ベータ版です。",
-  "app": null
+    "name": "CoolCC",
+    "id": "com.4nni3.coolcc",
+    "author": "4nni3",
+    "section": "Tweaks",
+    "description": "",
+    "support_min": 11,
+    "support_max": 14.2,
+    "changelog": [{
+            "version": "3.2~beta1",
+            "date": "2019-03-31",
+            "description": "First release."
+        },
+        {
+            "version": "3.2~beta2",
+            "date": "2019-07-06",
+            "description": "For arm64e. Thanks @ichitaso"
+        },
+        {
+            "version": "3.3~beta4",
+            "date": "2019-08-25",
+            "description": "Support iOS12.4"
+        },
+        {
+            "version": "3.4~beta1",
+            "date": "2019-11-16",
+            "description": "Support ios 13"
+        },
+        {
+            "version": "3.4~beta2",
+            "date": "2019-11-17",
+            "description": "add a option effecting volume hud"
+        },
+        {
+            "version": "3.4~beta3",
+            "date": "2019-11-17",
+            "description": "fix for ios12.4"
+        },
+        {
+            "version": "3.4~beta4",
+            "date": "2019-11-18",
+            "description": "fix color setting bug"
+        },
+        {
+            "version": "4.0~beta1",
+            "date": "2020-11-10",
+            "description": "Support iOS14"
+        }
+    ],
+    "screenshots": [
+        "com.4nni3.coolcc_1.png",
+        "com.4nni3.coolcc_2.png",
+        "com.4nni3.coolcc_3.png"
+    ],
+    "header_img": "https://i.imgur.com/D7ykEhL.png",
+    "images": [],
+    "youtube": [],
+    "icon": "https://i.imgur.com/YrOjbdc.png",
+    "info": "ベータ版です。",
+    "app": null
 }
