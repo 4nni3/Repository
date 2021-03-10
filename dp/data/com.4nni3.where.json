@@ -1,38 +1,42 @@
 {
-  "name": "Where",
-  "id": "com.4nni3.where",
-  "author": "4nni3",
-  "section": "Tweaks",
-  "description": "Fake your location.",
-  "support_min": 13,
-  "support_max": 13.5,
-  "changelog": [
-    {
-      "version": "1.0",
-      "date": "2020-07-03",
-      "description": "First release."
-    },
-    {
-      "version": "1.1",
-      "date": "2020-07-04",
-      "description": "Fixed a bug that prevented the settings from being reflected."
-    },
-    {
-      "version": "1.2",
-      "date": "2020-9-19",
-      "description": "Fixed to reflect the settings quickly."
-    }
-  ],
-  "screenshots": [
-    "com.4nni3.where_1.png",
-    "com.4nni3.where_2.png",
-    "com.4nni3.where_3.png",
-    "com.4nni3.where_4.png"
-  ],
-  "images": [],
-  "youtube": [],
-  "icon": "https://i.imgur.com/PepGAga.png",
-  "header_img": null,
-  "info": null,
-  "app": null
+    "name": "Where",
+    "id": "com.4nni3.where",
+    "author": "4nni3",
+    "section": "Tweaks",
+    "description": "Fake your location.",
+    "support_min": 13,
+    "support_max": 13.5,
+    "changelog": [{
+            "version": "1.0",
+            "date": "2020-07-03",
+            "description": "First release."
+        },
+        {
+            "version": "1.1",
+            "date": "2020-07-04",
+            "description": "Fixed a bug that prevented the settings from being reflected."
+        },
+        {
+            "version": "1.2",
+            "date": "2020-9-19",
+            "description": "Fixed to reflect the settings quickly."
+        },
+        {
+            "version": "1.3",
+            "date": "2021-3-10",
+            "description": "Fixed to work on iOS 14."
+        }
+    ],
+    "screenshots": [
+        "com.4nni3.where_1.png",
+        "com.4nni3.where_2.png",
+        "com.4nni3.where_3.png",
+        "com.4nni3.where_4.png"
+    ],
+    "images": [],
+    "youtube": [],
+    "icon": "https://i.imgur.com/PepGAga.png",
+    "header_img": null,
+    "info": null,
+    "app": null
 }
